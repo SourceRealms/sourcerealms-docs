@@ -25,14 +25,3 @@
 
   --md-typeset-a-color: #C061FF;
 }
-
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #4C0F91;
-  --md-primary-fg-color--light: #6A17C7;
-  --md-primary-fg-color--dark: #32095F;
-
-  --md-accent-fg-color: #8A1FD1;
-  --md-accent-fg-color--transparent: #8A1FD11A;
-
-  --md-typeset-a-color: #6A17C7;
-}

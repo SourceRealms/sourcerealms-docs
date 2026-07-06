@@ -5,20 +5,9 @@ site_description: Player wiki for the Source Realms Nations SMP — nations, cla
 theme:
   name: material
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: deep purple
       accent: purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: deep purple
-      accent: purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
   font:
     text: Inter
   icon:
