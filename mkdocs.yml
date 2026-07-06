@@ -10,8 +10,9 @@ theme:
       accent: purple
   font:
     text: Inter
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   icon:
-    logo: material/shield-crown
     repo: fontawesome/brands/github
   features:
     - navigation.tabs
