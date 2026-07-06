@@ -1,0 +1,88 @@
+# Command Reference
+
+## Nation basics
+
+| Command | Description |
+|---|---|
+| `/nation` · `/nations` · `/n` | Open your Nation Menu (Java, in a nation) or show help |
+| `/nation help [page]` | List commands |
+| `/nation create <name>` | Create a nation |
+| `/nation invite <player>` | Invite a player |
+| `/nation accept` / `/nation deny` | Accept / decline an invite |
+| `/nation kick <player>` | Remove a member |
+| `/nation leave` | Leave your nation |
+| `/nation disband` → `confirm` | Delete your nation |
+| `/nation info [name]` | Nation details |
+| `/nation list [page]` | All nations |
+
+## Land & capital
+
+| Command | Description |
+|---|---|
+| `/nation claim` / `/nation unclaim` | Claim / release the current chunk |
+| `/nation map` | Nearby-claims mini-map |
+| `/nation capital set <name>` | Set & name your capital here |
+| `/nation capital` | Teleport to your capital |
+
+## Roles & permissions
+
+| Command | Description |
+|---|---|
+| `/nation roles` | List roles |
+| `/nation role create/delete/set/title ...` | Manage roles |
+| `/nation perms ...` | View / toggle role permissions |
+
+## Identity
+
+| Command | Description |
+|---|---|
+| `/nation color <colour>` | Set nation colour |
+| `/nation description [text]` | Set/clear description |
+| `/nation government [text]` | Set/clear government |
+| `/nation ideology [text]` | Set/clear ideology |
+| `/nation rename <name>` / `/nation tag <tag>` | Rename / retag |
+| `/nation announce <message>` | Broadcast to members |
+| `/nation banner set/clear` · `/nation banner` | Manage / get the nation banner |
+
+## Neutrality & War
+
+| Command | Description |
+|---|---|
+| `/nation neutral` | Show your nation's stance and cooldown status |
+| `/nation neutral on\|off` | Become neutral (peaceful) or warlike |
+| `/nation war declare <nation>` | Declare war (contest a territory) |
+| `/nation war cancel <nation>` | Call off a war before the battle starts (attacker only) |
+| `/nation war reinforce <ally>` | Answer an ally's call to arms |
+| `/nation war list` / `/nation war info <nation>` | Your war / war details |
+| `/nation war surrender <nation>` · `/nation surrender <nation>` | Surrender a battle |
+
+## Diplomacy
+
+| Command | Description |
+|---|---|
+| `/nation treaty propose alliance\|nap\|defense\|aggression <nation>` | Offer a treaty |
+| `/nation treaty accept/deny/cancel/break <nation>` | Manage treaties |
+| `/nation treaty enemy <nation>` | Mark an enemy |
+| `/nation treaty list` | Your relations |
+
+## Economy
+
+| Command | Description |
+|---|---|
+| `/gold` | Show your balance |
+| `/gold deposit <amount\|all>` | Gold items → currency |
+| `/gold withdraw <amount\|all>` | Currency → gold items |
+| `/nation bank deposit <amount>` | Your balance → nation bank |
+| `/nation bank withdraw <amount>` | Nation bank → your balance |
+| `/nation bank send <amount> <nation>` | Send money to another nation (aid) |
+
+## Personal & world
+
+| Command | Description |
+|---|---|
+| `/skills [player]` | Open the skills panel / view another player's |
+| `/nation weblink` | Get a code to link the web map |
+| `/rtp` · `/wild` | Teleport to a random, unclaimed, safe surface spot |
+| `/map` | Open the live web map |
+
+*(Admins have additional `/nation admin war ...` and `/skills admin ...` commands.)*

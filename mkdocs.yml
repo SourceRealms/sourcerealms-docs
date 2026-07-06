@@ -1,0 +1,78 @@
+site_name: Source Realms Docs
+site_url: https://docs.source-realms.com/
+site_description: Player wiki for the Source Realms Nations SMP — nations, claims, diplomacy, war, skills, and the gold economy.
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font:
+    text: Inter
+  icon:
+    logo: material/shield-crown
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Nations:
+      - Creating & Joining: nations/creating-joining.md
+      - Roles & Permissions: nations/roles-permissions.md
+      - Claims & Territory: nations/claims-territory.md
+      - Capital: nations/capital.md
+      - Identity & Cosmetics: nations/identity-cosmetics.md
+  - Neutrality & War:
+      - Neutrality: war/neutrality.md
+      - Declaring War: war/overview.md
+      - Allies & Call to Arms: war/allies.md
+  - Diplomacy: diplomacy.md
+  - Economy:
+      - Gold Currency: economy/gold.md
+      - Nation Bank: economy/bank.md
+      - Foreign Aid: economy/aid.md
+  - Skills & Progression: skills.md
+  - Library & Letters: letters.md
+  - World Rules: world-rules.md
+  - Web Map: web-map.md
+  - Reference:
+      - Command Reference: reference/commands.md
+      - Permissions Reference: reference/permissions.md
+  - FAQ: faq.md

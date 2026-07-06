@@ -1,0 +1,102 @@
+# Declaring War
+
+War is how territory changes hands. It's a deliberate, scheduled event tied to a fixed weekly
+session — not an instant free-for-all — and it only happens between two **warlike** nations (see
+[Neutrality](neutrality.md) if you're not sure what that means for you).
+
+## 1. Declare — any time
+
+```
+/nation war declare <nation>
+```
+
+Requires the **Manage Diplomacy** permission. You **contest one territory** — one connected
+cluster of the enemy's claims. If they have several separate territories, you'll be asked to pick
+which one to contest (by number).
+
+You can't declare war if:
+
+- Either nation is **neutral**.
+- Your nation is already in an unresolved war (win, lose, or resolve it first).
+- The target nation is already in an unresolved war.
+- You have an active treaty or a recent alliance-break cooldown with them — see
+  [Diplomacy](../diplomacy.md).
+
+You can declare **at any time** — there's no need to wait for a specific day. Your war is
+automatically slotted into the **next available weekly session**.
+
+## 2. The weekly war session
+
+All battles happen at a **fixed weekly slot: Friday, 18:00–00:00 (UK time)**. Only **one war** can
+be scheduled per session, and at most **two upcoming sessions** can be booked at once. When you
+declare:
+
+- If the next Friday's slot is free, your war is proposed for it.
+- If it's already taken, you're bumped to the Friday after.
+- If **both** upcoming Fridays are already booked, your declaration is rejected outright with a
+  message to wait or contact an admin — it isn't queued indefinitely.
+
+Any time this wiki (or Discord) mentions a battle time, it's shown as a **dynamic timestamp** that
+displays correctly in your own timezone.
+
+## 3. Admin review
+
+A declared war doesn't go live immediately — it's marked **pending** until an admin reviews it (via
+an in-game command or a Discord button). This is announced in the server's `#nations-admin` Discord
+channel. You'll see your war listed as *pending admin approval* until then.
+
+- **If approved**, your war is confirmed for its session slot, and it's publicly announced in the
+  `#nations-news` Discord channel with a countdown timestamp. Online members of **both** nations
+  also get an in-game chat message right away; anyone offline at that moment gets the same message
+  the next time they log in (as long as the battle hasn't already happened by then).
+- **If denied**, the war is cancelled before it ever goes public, and your reserved slot frees up
+  for someone else.
+
+## 4. Changed your mind? Cancel it
+
+```
+/nation war cancel <nation>
+```
+
+Only the **attacker** can call off a war, any time before the battle starts, and it requires
+*Manage Diplomacy*. If the war had already been publicly announced, cancelling it posts a
+retraction to `#nations-news` too, so nobody shows up to a battle that isn't happening.
+
+## 5. The warning window
+
+Once approved, both nations get a **warning** *(default 120 minutes before the battle)* to rally
+members online. This is also when [allies can answer the call to arms](allies.md).
+
+## 6. The battle
+
+When the timer hits zero, everyone online on both sides is teleported to a **battlefield** around
+the contested territory:
+
+- Attackers spawn just outside the territory; defenders spawn at its centre.
+- You **can't leave the battlefield** — step out and you're pulled back.
+- Inside it, participants can **build and break freely**, and **PvP is on** between the two sides.
+- **Elimination decides it.** When a player dies (or logs out) they're out, and become a spectator
+  locked to a living teammate's view. A side **wins when the entire enemy roster is eliminated**.
+- A nation whose land is at stake can concede with `/nation war surrender <nation>` (or
+  `/nation surrender <nation>`).
+
+## 7. The spoils (reparations)
+
+If the **attacker wins**, they:
+
+- **Capture the contested territory** — those chunks become the attacker's claims.
+- **Seize reparations** *(default 50%)* — that percentage of the defender's **nation bank**, plus
+  the same percentage of every **online** losing member's personal balance, transfers to the
+  winner's bank.
+
+If the **defender wins**, they keep their land and nothing is transferred.
+
+## Things that end a war early
+
+- **Surrender** — the opponent wins outright.
+- **No-show** — if a side has nobody online when the battle starts, the war is cancelled.
+- **Admin action or a disband** — the battle is torn down.
+- **Server restart mid-battle** — the battle is cancelled; battle state isn't saved across restarts.
+
+Check your current war any time with `/nation war list`, or details with
+`/nation war info <nation>`.
