@@ -1,0 +1,38 @@
+/* Custom palette overrides — richer, more saturated purple + a near-black dark canvas.
+   The named Material presets ("deep purple"/"purple") read as too light/pastel, so we set the
+   underlying CSS variables directly instead of relying on the presets. */
+
+[data-md-color-scheme="slate"] {
+  /* Canvas: push toward true black instead of Material's default dark slate-grey. */
+  --md-default-bg-color: #0a0710;
+  --md-default-bg-color--light: #0a0710;
+  --md-default-bg-color--lighter: #0a0710;
+  --md-default-bg-color--dark: #060409;
+
+  /* Slightly deepen the code-block background to match the darker canvas. */
+  --md-code-bg-color: #120c1e;
+
+  /* Primary: header bar, nav highlights — a deep, saturated purple (not pastel). */
+  --md-primary-fg-color: #4C0F91;
+  --md-primary-fg-color--light: #6A17C7;
+  --md-primary-fg-color--dark: #32095F;
+  --md-primary-bg-color: #FFFFFF;
+
+  /* Accent: links, search highlights, hover states — vivid, not muted. */
+  --md-accent-fg-color: #B341FF;
+  --md-accent-fg-color--transparent: #B341FF1A;
+  --md-accent-bg-color: #FFFFFF;
+
+  --md-typeset-a-color: #C061FF;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #4C0F91;
+  --md-primary-fg-color--light: #6A17C7;
+  --md-primary-fg-color--dark: #32095F;
+
+  --md-accent-fg-color: #8A1FD1;
+  --md-accent-fg-color--transparent: #8A1FD11A;
+
+  --md-typeset-a-color: #6A17C7;
+}
