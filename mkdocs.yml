@@ -10,7 +10,6 @@ theme:
       accent: purple
   font:
     text: Inter
-  logo: assets/logo.png
   favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github
