@@ -33,7 +33,7 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 | **Manage Diplomacy** | Treaties, enemies, neutrality toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
 | **Bank Deposit** | Deposit to the nation bank |
 | **Bank Withdraw** | Withdraw from the bank, send foreign aid, and collect received aid |
-| **Manage Taxes** | *(Reserved — a tax system is planned but not built yet)* |
+| **Manage Taxes** | Set the daily member tax rate and manage exemptions — see [Tax & Upkeep](../economy/tax-upkeep.md) |
 | **Edit Labels** | Colour, description, government, ideology, capital location, and banner |
 | **Edit Banner** | Edit the nation banner |
 | **Rename Nation** | Rename the nation and change its tag |
