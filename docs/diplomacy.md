@@ -32,3 +32,11 @@ them" marker) — war is still gated entirely by neutrality, treaties, and the s
 
 You can also review signed pacts and pending proposals in **Nation Menu → Library → Documents**,
 where clicking a document lets you accept, deny, cancel, or break it directly.
+
+## Notifications
+
+Whoever holds **Manage Diplomacy** in your nation is kept in the loop automatically — proposals,
+signed treaties, enemy declarations, and [foreign aid](economy/aid.md) all send an in-game message.
+If you're offline when something happens, you get the message the next time you log in. Logging in
+also reminds you of any proposal still waiting on your nation's response — if it's already been
+accepted or declined by someone else in the meantime, you won't see a stale prompt for it.
