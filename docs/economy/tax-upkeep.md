@@ -28,7 +28,7 @@ toggle them.
 ## Nation upkeep
 
 Holding land costs money. Every day, your nation pays **upkeep** from its bank based on how much it
-has claimed — **50 gold per claimed chunk** *(default)*. You can see your current daily upkeep in the
+has claimed — **5 gold per claimed chunk** *(default)*. You can see your current daily upkeep in the
 lore of the gold icon on the **Economy** menu.
 
 - It's paid automatically from the nation bank each day.
