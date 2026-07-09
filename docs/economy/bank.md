@@ -10,8 +10,6 @@ Separate from your personal wallet, each nation has a shared **bank**. Open
 | `/nation bank send <amount> <nation>` | Send money to another nation's bank — foreign aid. |
 
 The nation bank is shown as **Bank** on `/nation info`, and it's exactly what
-[war reparations](../war/overview.md#7-the-spoils-reparations) are paid into and out of.
-
-!!! note "Taxes"
-    A tax system is shown in the Economy menu for permission-holders but isn't built yet — it's
-    planned for a future update.
+[war reparations](../war/overview.md#7-the-spoils-reparations) are paid into and out of. It's also
+where [tax](tax-upkeep.md) is collected and where [upkeep](tax-upkeep.md#nation-upkeep) is paid
+from each day — so keep it funded.

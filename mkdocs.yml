@@ -59,6 +59,7 @@ nav:
   - Economy:
       - Gold Currency: economy/gold.md
       - Nation Bank: economy/bank.md
+      - Tax & Upkeep: economy/tax-upkeep.md
       - Foreign Aid: economy/aid.md
   - Skills & Progression: skills.md
   - Library & Letters: letters.md
