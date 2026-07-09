@@ -7,6 +7,19 @@ readout); check someone else's with `/skills <player>`.
 Each skill levels up from XP earned by doing the matching activity, and unlocks **perks at levels
 3, 6, and 9**, plus a **luxury item unlock at the max level** *(default 10)*.
 
+## Only two skills can be active at once
+
+You can only have **two of your five skills active** at a time, and **only active skills earn
+XP** — the other three sit frozen until you swap. This forces nations to spread expertise between
+their members rather than everyone maxing everything.
+
+Choose your two with `/skills setactive <skill> <skill>`, or click a skill in the `/skills` GUI.
+**The choice is permanent** — the only way to change an active skill is a **Skill Reset Token**.
+Right-click the token (Java opens a small reset menu; Bedrock is asked in chat which skill to drop),
+then pick the replacement with `/skills activate <skill>` or another GUI click. Switching a skill
+off **never** wipes the levels, perks, or luxury access you already earned in it — it only pauses
+further XP.
+
 | Skill | Lv 3 | Lv 6 | Lv 9 | Mastery (max level) |
 |---|---|---|---|---|
 | **Mining** | 25% chance to double ore drops | Ores auto-smelt when mined | Haste while mining | Unlocks **Netherite** |
@@ -19,20 +32,19 @@ Each skill levels up from XP earned by doing the matching activity, and unlocks 
 
 Those five "luxury" items are **completely unobtainable** until you **master** the matching
 skill — reach its max level. This isn't just a crafting block: until you're maxed, you can't get
-one **any** way — not by crafting, smithing, fishing it up, trading for it, picking one up off the
-ground, or taking it out of a loot chest. Items you already legitimately own are never taken away —
-only new acquisition is blocked.
+one **any** way — not by crafting, smithing, fishing it up, trading for it, or taking it out of a
+loot chest. The one exception is a **gift from a player who has mastered the skill**: if a master
+drops one for you, you can pick it up. Items you already legitimately own are never taken away.
 
 - **Netherite** (ingots, blocks, scrap, and any netherite gear) → mastered **Mining**.
-- **Shulker Boxes** (any recipe, any colour) → mastered **Woodcutting**.
+- **Shulker Boxes** (any colour) → mastered **Woodcutting**.
 - **Enchanted Golden Apple** → mastered **Farming**.
 - **Totem of Undying** → mastered **Combat**.
 - **Anything enchanted with (or carrying a book with) Mending** → mastered **Enchanting**.
 
 ### Crafting a shulker box
 
-Alongside the vanilla recipe (2 shulker shells + a chest), there's a server-specific alternate
-recipe:
+Shulker boxes are made with this recipe:
 
 ```
 Diamond      Purple Dye   Diamond
@@ -40,8 +52,18 @@ Purple Dye   Chest        Purple Dye
 Emerald      Purple Dye   Emerald
 ```
 
-Either recipe produces a shulker box — and either one is blocked the same way until Woodcutting is
-maxed.
+### Crafting an Enchanted Golden Apple
+
+Enchanted Golden Apples are made with this recipe:
+
+```
+Diamond      Gold Block   Diamond
+Gold Block   Apple        Gold Block
+Diamond      Gold Block   Diamond
+```
+
+Both recipes still require you to have **mastered** the gating skill (Woodcutting for shulker
+boxes, Farming for enchanted golden apples) before they'll craft.
 
 ## How XP is earned (and what doesn't count)
 
@@ -53,5 +75,5 @@ maxed.
 - **Enchanting**: enchanting items at a table.
 
 In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar) and its
-milestones — unlocked perks show in the skill's colour, locked ones are dark grey with the level
-they require.
+milestones — unlocked perks show in the skill's colour, locked ones are white panes with the level
+they require. Your two active skills are marked; the rest show as inactive.

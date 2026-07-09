@@ -23,8 +23,8 @@ Mining and natural chest loot are the only ways to get gold. See [World Rules](w
 
 Netherite (ingots, blocks, scrap, and any netherite gear) is locked behind **mastering the Mining
 skill** — reaching its max level. Until then it's unobtainable through **any** path: crafting,
-smithing, fishing, trading, picking one up, or looting it from a chest. See
-[Skills & Progression](skills.md).
+smithing, fishing, trading, or looting it from a chest. The only exception is being handed one by a
+player who has already mastered Mining. See [Skills & Progression](skills.md).
 
 ### What is this server about?
 

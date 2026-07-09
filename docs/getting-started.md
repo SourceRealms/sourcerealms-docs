@@ -19,8 +19,8 @@ Everything else branches off `/nation ...` (nation management, claims, diplomacy
 
 - **`/rtp`** (alias `/wild`) — teleports you to a random, unclaimed, safe surface spot. Useful for
   finding a fresh place to settle. Has a short cooldown between uses.
-- **`/map`** — opens the live web map showing every nation's territory (ask an admin for the URL if
-  it isn't linked anywhere in-game yet).
+- **`/map`** — opens the live web map showing every nation's territory, at
+  [map.source-realms.com](https://map.source-realms.com).
 
 ## What to do first
 
