@@ -46,9 +46,11 @@ an in-game command or a Discord button). This is announced in the server's `#nat
 channel. You'll see your war listed as *pending admin approval* until then.
 
 - **If approved**, your war is confirmed for its session slot, and it's publicly announced in the
-  `#nations-news` Discord channel with a countdown timestamp. Online members of **both** nations
-  also get an in-game chat message right away; anyone offline at that moment gets the same message
-  the next time they log in (as long as the battle hasn't already happened by then).
+  `#nations-news` Discord channel with a countdown timestamp. That post is kept **up to date through
+  the whole war** — it updates when the battle begins, when it's won (naming the winner), and if it's
+  cancelled. Online members of **both** nations also get an in-game chat message right away; anyone
+  offline at that moment gets the same message the next time they log in (as long as the battle
+  hasn't already happened by then).
 - **If denied**, the war is cancelled before it ever goes public, and your reserved slot frees up
   for someone else.
 
@@ -59,13 +61,15 @@ channel. You'll see your war listed as *pending admin approval* until then.
 ```
 
 Only the **attacker** can call off a war, any time before the battle starts, and it requires
-*Manage Diplomacy*. If the war had already been publicly announced, cancelling it posts a
-retraction to `#nations-news` too, so nobody shows up to a battle that isn't happening.
+*Manage Diplomacy*. If the war had already been publicly announced, cancelling it updates the
+`#nations-news` post to a cancellation notice, so nobody shows up to a battle that isn't happening.
 
-## 5. The warning window
+## 5. Reminders before the battle
 
-Once approved, both nations get a **warning** *(default 120 minutes before the battle)* to rally
-members online. This is also when [allies can answer the call to arms](allies.md).
+As the battle approaches, both nations' online members get in-game **reminders at 4, 2, and 1 hours
+before it starts** *(configurable)*, and a final **"battle begun" announcement** the moment it
+kicks off. Anyone offline when a reminder fires is caught up the next time they log in. The first
+reminder is also when [allies can answer the call to arms](allies.md).
 
 ## 6. The battle
 
