@@ -88,5 +88,6 @@
 | `/nation weblink` | Get a code to link the web map |
 | `/rtp` · `/wild` | Teleport to a random, unclaimed, safe surface spot |
 | `/map` | Open the live web map |
+| `/guide` · `/serverhelp` | Open a quick overview of Nations, Skills, World Rules, RTP, Voting, and the Server Store |
 
 *(Admins have additional `/nation admin war ...` and `/skills admin ...` commands.)*

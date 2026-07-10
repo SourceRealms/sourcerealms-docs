@@ -28,6 +28,13 @@ scarce to stop it being trivially farmed. Specifically:
 The only intended sources of gold left are **mining it yourself** and **natural chest loot** — both
 untouched by these restrictions.
 
+## Obsidian isn't TNT-proof anymore
+
+Obsidian is normally immune to TNT — here, it isn't. It takes **5 separate TNT explosions** to break
+one obsidian block, so it's a real (if temporary) defensive material rather than a hard wall. To check
+how much punishment a block has already taken, **left-click it with a potato** in hand — it'll tell
+you how many hits it has left. This works anywhere on the server, not just during wars.
+
 ## Difficulty
 
 The server runs on **Hard** difficulty.

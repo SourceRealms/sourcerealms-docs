@@ -103,6 +103,9 @@ tear through everything inside the battlefield**, so TNT (and siege equipment) w
 pre-built defences that hand-mining can't touch. Solid walls are worth building — they force attackers
 to spend explosives instead of quietly digging in.
 
+If you're building defences ahead of a war, note that [obsidian isn't TNT-proof](../world-rules.md#obsidian-isnt-tnt-proof-anymore)
+here — it holds up to repeated blasts rather than blocking them outright.
+
 ## 7. The spoils (reparations)
 
 If the **attacker wins**, they:
