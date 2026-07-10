@@ -35,6 +35,10 @@ one obsidian block, so it's a real (if temporary) defensive material rather than
 how much punishment a block has already taken, **left-click it with a potato** in hand — it'll tell
 you how many hits it has left. This works anywhere on the server, not just during wars.
 
+Leave a damaged block alone for **5 minutes** and it starts **healing 1 hit every minute** until it's
+back to full health — so a wall that survives an initial assault will recover if the attackers don't
+keep the pressure up.
+
 ## Difficulty
 
 The server runs on **Hard** difficulty.
