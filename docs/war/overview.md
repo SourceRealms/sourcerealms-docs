@@ -90,16 +90,18 @@ The battlefield has two zones, and they play differently:
 
 - **Outside the territory** (the ring where attackers spawn): a free-for-all. Build, break, and place
   whatever you like — it's open ground. This is where you'd set up siege positions.
-- **Inside the contested territory:** the defenders' existing base is solid. **Blocks that were
-  already there when the battle started — walls, floors, the ground itself — can't be broken by
-  hand.** No tunnelling under a castle to pop up in the throne room. What you *can* do is **place**
-  blocks freely — bridge a wall, pillar up, box yourself in for cover — and **any block placed after
-  the battle began can be broken again**, whether you or the enemy placed it.
+- **Inside the contested territory:** it's the defenders' land, so the two sides play by different
+  rules. **Defenders can build and break their own base freely** — dig in, reroute, wall off, do
+  whatever it takes to hold. **Attackers can't break the base by hand:** blocks that were already
+  there when the battle started — walls, floors, the ground itself — are locked to them, so there's no
+  tunnelling under a castle to pop up in the throne room. Both sides can freely **place** blocks
+  (bridge a wall, pillar up, box up for cover), and **any block placed after the battle began can be
+  broken again** by either side.
 
-To actually breach a defended base, you go **through the wall, not under it**: **explosions still tear
-through everything inside the battlefield**, so TNT (and siege equipment) will blast open pre-built
-defences that hand-mining can't touch. Solid walls are worth building — they force attackers to spend
-explosives instead of quietly digging in.
+So how does an attacker actually get in? You go **through the wall, not under it**: **explosions still
+tear through everything inside the battlefield**, so TNT (and siege equipment) will blast open
+pre-built defences that hand-mining can't touch. Solid walls are worth building — they force attackers
+to spend explosives instead of quietly digging in.
 
 ## 7. The spoils (reparations)
 
