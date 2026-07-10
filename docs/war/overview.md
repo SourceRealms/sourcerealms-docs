@@ -115,7 +115,7 @@ TNT over a wall.
 
 ```
 Gunpowder   Iron Block   Gunpowder
-   TNT          TNT          TNT
+Iron Block     TNT       Iron Block
 Gunpowder   Iron Block   Gunpowder
 ```
 
