@@ -30,8 +30,9 @@ never being able to fight. A warlike nation gets a tighter, more contested terri
   "colony." Once you hit your colony cap, new claims must connect to territory you already hold.
 - **Minimum distance** *(default: 5 chunks)*: your border must stay at least this many chunks from
   another nation's, for **both** neutral and warlike nations — this buffer always applies.
-- **Overworld only**: only overworld chunks can be claimed. The Nether can be explored freely but
-  never claimed; the End is disabled entirely (see [World Rules](../world-rules.md)).
+- **Overworld only**: only overworld chunks can be claimed. The Nether can never be claimed and is
+  wiped weekly, so don't rely on it for anything permanent; the End is disabled entirely (see
+  [World Rules](../world-rules.md)).
 
 !!! note "Re-arming has a catch"
     If your neutral nation has claimed more land than the **warlike** cap allows, you can't just

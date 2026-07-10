@@ -8,10 +8,16 @@ regardless of nation or neutrality status.
 You cannot travel to the End at all — stepping into an End portal simply does nothing. This is a
 deliberate server-wide decision, not a bug.
 
-## The Nether is open, but unclaimable
+## The Nether is small, temporary, and unclaimable
 
-You can explore and build in the Nether freely — it just can't be **claimed** by any nation. Only
-overworld chunks count toward a nation's territory. Treat anything you build there as unprotected.
+The Nether has a **worldborder 5,000 blocks wide** (2,500 blocks from spawn in any direction), and it
+can't be **claimed** by any nation — only overworld chunks count toward a nation's territory.
+
+It's also **wiped and regenerated every week**, at **Monday 01:00 (UK time)**. Anything you build there
+will be gone afterward, so don't treat it as permanent — think of it as a resource run, not a place to
+settle. If you're still in the Nether when the reset happens, you're automatically teleported to your
+nation's capital (or the overworld spawn if you don't have one), and the whole server gets a heads-up
+in chat.
 
 ## Why don't mobs drop gold?
 
