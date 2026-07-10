@@ -106,6 +106,33 @@ to spend explosives instead of quietly digging in.
 If you're building defences ahead of a war, note that [obsidian isn't TNT-proof](../world-rules.md#obsidian-isnt-tnt-proof-anymore)
 here — it holds up to repeated blasts rather than blocking them outright.
 
+### The war cannon
+
+For heavier siege work, attackers can build a **war cannon** — a deployable structure that lobs primed
+TNT over a wall.
+
+**Craft it** in a crafting table. Reading left-to-right, top-to-bottom:
+
+```
+Gunpowder   Iron Block   Gunpowder
+   TNT          TNT          TNT
+Gunpowder   Iron Block   Gunpowder
+```
+
+That gives you a **War Cannon** item. Then, during a battle:
+
+1. **Deploy** — hold the cannon and right-click the ground where you want it. The cannon rises in
+   front of you, its barrel pointing the way you're facing. You can only place cannons **as an
+   attacker, in the buffer zone** outside the contested territory — not inside the enemy's claim — and
+   a battle is limited to **5 active cannons** at once.
+2. **Load** — right-click the **breech** (the solid block at the back, under the trigger) to open it,
+   and drop in **TNT**. It only accepts TNT.
+3. **Fire** — hit the **trigger button** on the back of the cannon. It launches a primed TNT charge
+   down-range, then needs about **10 seconds to prime** before it can fire again.
+
+A cannon is only as good as its barrel: if the **barrel** or the **trigger** gets broken (or blown
+up), the cannon is **wrecked** and becomes an inert pile of blocks — you'll need a fresh one.
+
 ## 7. The spoils (reparations)
 
 If the **attacker wins**, they:
