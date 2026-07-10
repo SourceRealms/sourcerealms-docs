@@ -68,6 +68,15 @@ the battle, and it's announced in `#nations-news` on Discord.
 Not normally — claims are safe zones. PvP only overrides that **between nations that are actively
 at war**, inside a battle's battlefield.
 
+### I can't break into a base during a battle — why?
+
+During a battle, the defenders' **existing** structure inside the contested territory can't be broken
+by hand — walls, floors, and the ground are locked, so nobody can tunnel under a base to bypass its
+defences. To get in, blast through: **explosions and TNT still destroy everything** in the
+battlefield. You can also freely **place** blocks (to bridge, pillar, or take cover), and anything
+placed after the battle started can be broken again. Full breakdown:
+[Declaring War](war/overview.md#building-and-breaking-during-a-battle).
+
 ### My ally is at war — how do I help?
 
 Wait for the **⚔ Call to Arms** message after their war is approved and click `[Reinforce]`, or run

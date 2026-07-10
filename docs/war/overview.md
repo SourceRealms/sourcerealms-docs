@@ -78,11 +78,28 @@ the contested territory:
 
 - Attackers spawn just outside the territory; defenders spawn at its centre.
 - You **can't leave the battlefield** — step out and you're pulled back.
-- Inside it, participants can **build and break freely**, and **PvP is on** between the two sides.
+- **PvP is on** between the two sides.
 - **Elimination decides it.** When a player dies (or logs out) they're out, and become a spectator
   locked to a living teammate's view. A side **wins when the entire enemy roster is eliminated**.
 - A nation whose land is at stake can concede with `/nation war surrender <nation>` (or
   `/nation surrender <nation>`).
+
+### Building and breaking during a battle
+
+The battlefield has two zones, and they play differently:
+
+- **Outside the territory** (the ring where attackers spawn): a free-for-all. Build, break, and place
+  whatever you like — it's open ground. This is where you'd set up siege positions.
+- **Inside the contested territory:** the defenders' existing base is solid. **Blocks that were
+  already there when the battle started — walls, floors, the ground itself — can't be broken by
+  hand.** No tunnelling under a castle to pop up in the throne room. What you *can* do is **place**
+  blocks freely — bridge a wall, pillar up, box yourself in for cover — and **any block placed after
+  the battle began can be broken again**, whether you or the enemy placed it.
+
+To actually breach a defended base, you go **through the wall, not under it**: **explosions still tear
+through everything inside the battlefield**, so TNT (and siege equipment) will blast open pre-built
+defences that hand-mining can't touch. Solid walls are worth building — they force attackers to spend
+explosives instead of quietly digging in.
 
 ## 7. The spoils (reparations)
 
