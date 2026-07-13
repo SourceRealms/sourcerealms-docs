@@ -1,7 +1,9 @@
 # The Web Map
 
-The server runs a live web map showing every nation's claims in its chosen colour, with a tooltip
-of the nation's name, tag, leader, member count, and claim count.
+The live web map is at **[map.source-realms.com](https://map.source-realms.com)**.
+
+It shows every nation's claims in its chosen colour, with a tooltip of the nation's name, tag,
+leader, member count, and claim count.
 
 ## Click-to-claim
 
@@ -11,8 +13,6 @@ permissions as `/nation claim`/`/nation unclaim` in-game.
 
 ## Linking your account
 
-Run `/nation weblink` in-game to get a one-time code, then enter it on the map to link your
-account. Codes expire after a couple of minutes — run the command again for a fresh one if it
-times out.
-
-Ask an admin (or check the pinned links in Discord) for the map's address if you don't have it.
+Head to **[map.source-realms.com](https://map.source-realms.com)** and run `/nation weblink`
+in-game to get a one-time code, then enter it on the map to link your account. Codes expire after a
+couple of minutes — run the command again for a fresh one if it times out.
