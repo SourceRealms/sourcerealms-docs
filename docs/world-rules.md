@@ -45,6 +45,33 @@ Leave a damaged block alone for **5 minutes** and it starts **healing 1 hit ever
 back to full health — so a wall that survives an initial assault will recover if the attackers don't
 keep the pressure up.
 
+## Combat item rules
+
+To keep PvP fair and skill-based, a handful of items are banned, cooldown-gated, or capped. These
+apply to **everyone**, everywhere on the server.
+
+**Banned / disabled outright:**
+
+- **Respawn anchors** — can't be placed or charged (no anchor-bombing).
+- **End crystals** — can't be placed (no crystal PvP).
+- **Elytra** — gliding is disabled; you can't fly.
+- **Tipped arrows** — can't be fired from a bow or crossbow.
+
+**Cooldowns:**
+
+- **Mace** — there's a **10-second cooldown** between mace hits.
+- **Spears** — the **lunge** is limited to **once every 15 seconds**. Normal melee swings are
+  unaffected.
+
+**Carry limits** *(you can't hold more than this; any excess is dropped at your feet)*:
+
+| Item | Max you can carry |
+|---|---|
+| Ender pearls | 32 (2 stacks) |
+| Wind charges | 64 (1 stack) — and they **can't be crafted** |
+| Enchanted golden apples | 5 |
+| Totems of undying | 3 |
+
 ## Difficulty
 
 The server runs on **Hard** difficulty.
