@@ -57,11 +57,11 @@ apply to **everyone**, everywhere on the server.
 - **Elytra** — gliding is disabled; you can't fly.
 - **Tipped arrows** — can't be fired from a bow or crossbow.
 
-**Cooldowns:**
+**Cooldowns & costs:**
 
 - **Mace** — there's a **10-second cooldown** between mace hits.
-- **Spears** — the **lunge** is limited to **once every 15 seconds**. Normal melee swings are
-  unaffected.
+- **Spears** — each **lunge** costs **3 hunger bars**, so you can't spam it — a few lunges in a row
+  will run your hunger out. Normal melee swings are unaffected.
 
 **Carry limits** *(you can't hold more than this; any excess is dropped at your feet)*:
 
