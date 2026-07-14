@@ -44,6 +44,7 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Server Rules: server-rules.md
   - Getting Started: getting-started.md
   - Nations:
       - Creating & Joining: nations/creating-joining.md
