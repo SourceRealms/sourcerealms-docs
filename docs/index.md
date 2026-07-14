@@ -14,6 +14,9 @@ The server is built to work for two kinds of players at once:
 
 Both playstyles are first-class. Nobody is forced into a war they didn't choose.
 
+We encourage using **voice chat and roleplay** where you can — nations, diplomacy, and wars are
+just more fun when you're actually talking to your allies and rivals in character.
+
 !!! tip "Java or Bedrock, you're covered"
     Java players get clickable inventory menus for everything. Bedrock players (via Geyser/
     Floodgate) get the exact same features through chat menus and forms. Every command in this
