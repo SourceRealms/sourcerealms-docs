@@ -52,3 +52,11 @@ clock on the original punishment.
 ## 9. No advertising other servers
 
 Don't promote other Minecraft servers in chat or DMs, solicited or not.
+
+## 10. Play in good faith
+
+Betrayal, backstabbing, and political scheming are part of the game — a plot twist that serves a
+story or a power play is always fair game. What's not okay is joining in purely to sabotage other
+players' fun with no goal beyond ruining it for them: joining a nation just to loot it and vanish,
+or tanking someone's roleplay or plans for no reason other than that you can. If in doubt, ask
+yourself whether what you're doing is part of a scheme, or just griefing with extra steps.
