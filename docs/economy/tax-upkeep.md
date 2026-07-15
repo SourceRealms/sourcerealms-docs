@@ -27,9 +27,9 @@ toggle them.
 
 ## Nation upkeep
 
-Holding land costs money. Every day, your nation pays **upkeep** from its bank based on how much it
-has claimed — **5 gold per claimed chunk** *(default)*. You can see your current daily upkeep in the
-lore of the gold icon on the **Economy** menu.
+Belonging to a nation costs money. Every day, your nation pays **upkeep** from its bank based on how
+many members it has — **5 gold per member** *(default)*. You can see your current daily upkeep in
+the lore of the gold icon on the **Economy** menu.
 
 - It's paid automatically from the nation bank each day.
 - If the bank **can't cover it**, the leader is warned — right away if online, otherwise the next time
@@ -39,4 +39,4 @@ lore of the gold icon on the **Economy** menu.
 
 Keep the bank topped up (through tax, deposits, [foreign aid](aid.md), or
 [war reparations](../war/overview.md#7-the-spoils-reparations)) so upkeep never catches you short —
-especially as you claim more territory.
+especially as your nation grows.
