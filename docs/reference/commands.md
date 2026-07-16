@@ -88,4 +88,4 @@
 | `/nation weblink` | Get a code to link the web map |
 | `/rtp` · `/wild` | Teleport to a random, unclaimed, safe surface spot |
 | `/map` | Open the live web map |
-| `/help` · `/guide` | Open a quick overview of Nations, Skills, World Rules, RTP, Voting, and the Server Store |
+| `/help` · `/guide` | Open a quick overview of Nations, Skills, Leaderboards, RTP, Voting, and the Server Store |

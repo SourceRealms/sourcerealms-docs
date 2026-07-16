@@ -15,8 +15,8 @@ bearings before anything else.
 Everything else branches off `/nation ...` (nation management, claims, diplomacy, war), `/skills`
 (progression), and `/gold` (money).
 
-Not sure where to start? Run **`/help`** any time for a quick overview of Nations, Skills, World
-Rules, RTP, Voting, and the Server Store, all in one menu.
+Not sure where to start? Run **`/help`** any time for a quick overview of Nations, Skills,
+Leaderboards, RTP, Voting, and the Server Store, all in one menu.
 
 ## Getting around
 
