@@ -42,9 +42,12 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Start Here:
+  - Server Info:
       - Server Rules: server-rules.md
       - Getting Started: getting-started.md
+      - World Rules: world-rules.md
+      - Web Map: web-map.md
+      - Voting: voting.md
   - Nations:
       - Creating & Joining: nations/creating-joining.md
       - Roles & Permissions: nations/roles-permissions.md
@@ -64,10 +67,6 @@ nav:
   - Player Systems:
       - Skills & Progression: skills.md
       - Library & Letters: letters.md
-  - Server Info:
-      - World Rules: world-rules.md
-      - Web Map: web-map.md
-      - Voting: voting.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md
