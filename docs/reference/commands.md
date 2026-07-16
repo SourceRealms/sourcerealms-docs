@@ -89,5 +89,3 @@
 | `/rtp` · `/wild` | Teleport to a random, unclaimed, safe surface spot |
 | `/map` | Open the live web map |
 | `/help` · `/guide` | Open a quick overview of Nations, Skills, World Rules, RTP, Voting, and the Server Store |
-
-*(Admins have additional `/nation admin war ...` and `/skills admin ...` commands.)*
