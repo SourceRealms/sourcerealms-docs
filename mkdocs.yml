@@ -42,30 +42,33 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Server Rules: server-rules.md
-  - Getting Started: getting-started.md
+  - Start Here:
+      - Server Rules: server-rules.md
+      - Getting Started: getting-started.md
   - Nations:
       - Creating & Joining: nations/creating-joining.md
       - Roles & Permissions: nations/roles-permissions.md
       - Claims & Territory: nations/claims-territory.md
       - Capital: nations/capital.md
       - Identity & Cosmetics: nations/identity-cosmetics.md
-  - Neutrality & War:
+  - Diplomacy & War:
+      - Diplomacy: diplomacy.md
       - Neutrality: war/neutrality.md
       - Declaring War: war/overview.md
       - Allies & Call to Arms: war/allies.md
-  - Diplomacy: diplomacy.md
   - Economy:
       - Gold Currency: economy/gold.md
       - Nation Bank: economy/bank.md
       - Tax & Upkeep: economy/tax-upkeep.md
       - Foreign Aid: economy/aid.md
-  - Skills & Progression: skills.md
-  - Library & Letters: letters.md
-  - World Rules: world-rules.md
-  - Web Map: web-map.md
-  - Voting: voting.md
+  - Player Systems:
+      - Skills & Progression: skills.md
+      - Library & Letters: letters.md
+  - Server Info:
+      - World Rules: world-rules.md
+      - Web Map: web-map.md
+      - Voting: voting.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md
-  - FAQ: faq.md
+      - FAQ: faq.md
