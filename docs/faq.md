@@ -7,8 +7,9 @@
 ### Why can't I declare war?
 
 Almost always **neutrality** — either your nation or the target nation is neutral (peaceful), and
-neutral nations can neither attack nor be attacked. New nations start neutral by default; run
-`/nation neutral off` to opt in. Full details: [Neutrality](war/neutrality.md).
+neutral nations can neither attack nor be attacked. New nations start **warlike** by default; a
+nation only becomes neutral if it opts in with `/nation neutral on`. Full details:
+[Neutrality](war/neutrality.md).
 
 It can also be because a session slot is fully booked, you're already in an unresolved war, or you
 have a treaty blocking it — see [Declaring War](war/overview.md).

@@ -18,9 +18,9 @@ A **neutral** nation:
 A **warlike** nation is the opposite: it can declare war, be attacked, and join battles as an ally
 — but its claim allowance is smaller and tighter.
 
-!!! info "New nations start neutral"
-    Every nation is created **neutral by default**. You have to deliberately opt in to the war
-    game with `/nation neutral off` — nobody is dragged into PvP territory conflict by accident.
+!!! info "New nations start warlike"
+    Every nation is created **warlike by default**. If you'd rather build peacefully, opt in to
+    neutral status yourself with `/nation neutral on`.
 
 ## Checking and changing your stance
 

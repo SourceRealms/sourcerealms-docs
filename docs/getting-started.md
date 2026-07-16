@@ -31,9 +31,9 @@ Rules, RTP, Voting, and the Server Store, all in one menu.
      - Founding: `/nation create <name>` — see [Creating & Joining](nations/creating-joining.md).
      - Joining: ask an existing nation's leader/officer for `/nation invite <you>`, then run
        `/nation accept`.
-2. **New nations start neutral (peaceful) by default** — you can't be attacked and can't attack
-   until you explicitly opt in with `/nation neutral off`. If you just want to build, you can
-   ignore war entirely. See [Neutrality](war/neutrality.md).
+2. **New nations start warlike by default** — you can declare and be drawn into war right away. If
+   you just want to build peacefully, opt in to neutral status with `/nation neutral on`: you can't
+   be attacked and can't attack, so you can ignore war entirely. See [Neutrality](war/neutrality.md).
 3. **Claim some land**: stand in a chunk and run `/nation claim` (needs the *Claim Land*
    permission — officers have it by default). See [Claims & Territory](nations/claims-territory.md).
 4. **Set your capital**: `/nation capital set <name>` gives your nation a named home point everyone

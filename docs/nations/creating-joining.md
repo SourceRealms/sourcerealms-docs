@@ -10,8 +10,8 @@ Your nation starts with you as its **leader**, an auto-generated **tag** (a shor
 brackets, like `[TEST]`), and a default set of roles (Leader + Officer + Member). You can change the
 tag later with `/nation tag <tag>` (2–5 characters).
 
-New nations start **neutral** (peaceful) by default — see [Neutrality](../war/neutrality.md) before
-you decide whether to opt into the war game.
+New nations start **warlike** by default — see [Neutrality](../war/neutrality.md) if you'd rather
+opt into peaceful, neutral status instead.
 
 ## Invite and join
 
