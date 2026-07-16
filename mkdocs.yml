@@ -54,6 +54,7 @@ nav:
       - Claims & Territory: nations/claims-territory.md
       - Capital: nations/capital.md
       - Identity & Cosmetics: nations/identity-cosmetics.md
+      - Library & Letters: letters.md
   - Diplomacy & War:
       - Diplomacy: diplomacy.md
       - Neutrality: war/neutrality.md
@@ -65,8 +66,8 @@ nav:
       - Tax & Upkeep: economy/tax-upkeep.md
       - Foreign Aid: economy/aid.md
   - Player Systems:
+      - Random Teleport: rtp.md
       - Skills & Progression: skills.md
-      - Library & Letters: letters.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md
