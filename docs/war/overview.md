@@ -77,10 +77,12 @@ When the timer hits zero, everyone online on both sides is teleported to a **bat
 the contested territory:
 
 - Attackers spawn just outside the territory; defenders spawn at its centre.
-- You **can't leave the battlefield** — step out and you're pulled back.
+- You **can't leave the battlefield** — reaching the edge bounces you back rather than teleporting
+  you away.
 - **PvP is on** between the two sides.
-- **Elimination decides it.** When a player dies (or logs out) they're out, and become a spectator
-  locked to a living teammate's view. A side **wins when the entire enemy roster is eliminated**.
+- **Elimination decides it.** When a player dies (or logs out) they're out, and become a free-flying
+  spectator (still confined to the battlefield). A side **wins when the entire enemy roster is
+  eliminated**.
 - A nation whose land is at stake can concede with `/nation war surrender <nation>` (or
   `/nation surrender <nation>`).
 
