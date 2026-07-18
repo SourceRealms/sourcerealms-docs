@@ -26,7 +26,7 @@ further XP.
 | **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | Haste while chopping | Unlocks **Shulker Boxes** |
 | **Farming** | 25% chance for extra crop yield | Crops auto-replant | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
 | **Combat** | +2 melee damage | Heal on kill (lifesteal) | +4 melee damage | Unlocks the **Totem of Undying** |
-| **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Free lapis + anvil repairs/combines cost 40% less XP | Unlocks **Mending** |
+| **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Anvil cost reduced by 40% (repairing and combining) | Unlocks **Mending** |
 
 ## Luxury gating: why can't I get that item?
 
