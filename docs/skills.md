@@ -14,11 +14,7 @@ XP** — the other three sit frozen until you swap. This forces nations to sprea
 their members rather than everyone maxing everything.
 
 Choose your two with `/skills setactive <skill> <skill>`, or click a skill in the `/skills` GUI.
-**The choice is permanent** — the only way to change an active skill is a **Skill Reset Token**.
-Right-click the token (Java opens a small reset menu; Bedrock is asked in chat which skill to drop),
-then pick the replacement with `/skills activate <skill>` or another GUI click. Switching a skill
-off **never** wipes the levels, perks, or luxury access you already earned in it — it only pauses
-further XP.
+**Choose carefully — this choice is permanent.**
 
 | Skill | Lv 3 | Lv 6 | Lv 9 | Mastery (max level) |
 |---|---|---|---|---|
