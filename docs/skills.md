@@ -26,7 +26,7 @@ further XP.
 | **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | Haste while chopping | Unlocks **Shulker Boxes** |
 | **Farming** | 25% chance for extra crop yield | Crops auto-replant | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
 | **Combat** | +2 melee damage | Heal on kill (lifesteal) | +4 melee damage | Unlocks the **Totem of Undying** |
-| **Enchanting** | Refund +1 XP level | Refund +2 XP levels | Refund +3 XP levels + lapis | Unlocks **Mending** |
+| **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Free lapis + 15% chance of a bonus free enchantment | Unlocks **Mending** |
 
 ## Luxury gating: why can't I get that item?
 
@@ -67,13 +67,48 @@ boxes, Farming for enchanted golden apples) before they'll craft.
 
 ## How XP is earned (and what doesn't count)
 
-- Only **survival-mode** actions grant XP.
-- **Mining** & **Woodcutting**: breaking naturally-generated ore/logs. Blocks *you* placed give
-  nothing.
-- **Farming**: harvesting **fully-grown** crops.
-- **Combat**: killing mobs and players (tougher enemies award more XP).
-- **Enchanting**: enchanting items at a table.
+Only **survival-mode** actions grant XP, and only for your **two active skills** — everything
+below is a no-op while a skill is inactive.
+
+**Mining** — breaking naturally-generated ore/stone. Blocks *you* placed give nothing.
+
+| Block | XP |
+|---|---|
+| Ancient Debris | 15 |
+| Diamond Ore, Emerald Ore | 8 |
+| Iron, Gold, Nether Gold, Redstone, Lapis Ore | 4 |
+| Coal, Copper, Nether Quartz Ore | 3 |
+| Stone, Deepslate, Netherrack, Granite/Diorite/Andesite, Tuff, Cobblestone, Blackstone, End Stone, Basalt, Calcite | 0.5 |
+
+**Woodcutting** — breaking naturally-generated logs. Placed logs give nothing.
+
+- Any log: **3 XP** per block (including each extra log felled by the Tree Feller perk).
+
+**Farming** — harvesting crops.
+
+- Wheat, Carrots, Potatoes, Beetroot, Nether Wart (must be **fully grown**): **3 XP**
+- Pumpkin, Melon: **2 XP**
+
+**Combat** — killing mobs or players.
+
+| Kill | XP |
+|---|---|
+| Player (PvP) | 15 |
+| Ender Dragon, Wither | 100 |
+| Warden, Elder Guardian, Ravager | 20 |
+| Blaze, Witch, Enderman, Piglin Brute, Evoker, Vindicator, Hoglin, Zoglin, Guardian | 6 |
+| Any other hostile mob | 4 |
+| Passive mobs | 0 |
+
+**Enchanting** — every enchant you apply at a table gives **4× its displayed level cost** in XP
+(e.g. a cost-30 enchant gives 120 XP).
 
 In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar) and its
 milestones — unlocked perks show in the skill's colour, locked ones are white panes with the level
 they require. Your two active skills are marked; the rest show as inactive.
+
+## It's a slow grind, on purpose
+
+Skills are meant to be a **long-term** goal, not something maxed in a day or two of casual play.
+The XP curve gets steeper every level, and the higher-value actions (rare ores, tough kills,
+expensive enchants) are the ones actually worth pursuing if you want to level efficiently.
