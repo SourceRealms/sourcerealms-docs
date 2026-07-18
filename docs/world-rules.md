@@ -62,6 +62,7 @@ apply to **everyone**, everywhere on the server.
 - **Mace** — there's a **10-second cooldown** between mace hits.
 - **Spears** — each **lunge** costs **4 hunger bars**, so you can't spam it — a couple of lunges in a
   row will run your hunger out. Normal melee swings are unaffected.
+- **Ender pearls** — there's a **5-second cooldown** between throws.
 
 **Carry limits** *(you can't hold more than this; any excess is dropped at your feet)*:
 
