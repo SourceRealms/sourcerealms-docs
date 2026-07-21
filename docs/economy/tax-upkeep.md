@@ -37,6 +37,18 @@ the lore of the gold icon on the **Economy** menu.
 - Paying resets the countdown. Missed days don't stack up as debt — you just need enough in the bank
   on the day to clear the warning.
 
+### Behind on upkeep? Pay it instantly
+
+If your nation misses its upkeep, you can settle it on the spot from **your own gold** — no need to
+deposit into the bank first:
+
+- Click **[Pay Now]** on the upkeep warning (it's on the login reminder too), **or**
+- Run `/nation upkeep pay`.
+
+Either one takes that day's upkeep straight from your gold and clears the warning immediately. Run
+`/nation upkeep` any time to check the daily cost, your bank balance, and whether you're behind.
+Paying needs the *Bank Deposit* permission.
+
 Keep the bank topped up (through tax, deposits, [foreign aid](aid.md), or
 [war reparations](../war/overview.md#7-the-spoils-reparations)) so upkeep never catches you short —
 especially as your nation grows.
