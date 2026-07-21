@@ -30,12 +30,14 @@ scarce to stop it being trivially farmed. Specifically:
 - **Piglin bartering never returns gold.** Bartering with a piglin can still get you all its other
   usual loot — just never gold nuggets back.
 - **No villager or wandering-trader trade ever hands out gold**, in either direction.
-- **Ocean monuments don't have gold either.** Normally their vaults are full of gold blocks — on
-  this server those have been stripped out, so raiding a monument won't hand you a stack of free
-  currency.
 
 The only intended sources of gold left are **mining it yourself** and **natural chest loot** — both
 untouched by these restrictions.
+
+## Ocean monuments don't have gold
+
+Normally an ocean monument's vault rooms are full of gold blocks — on this server those have been
+stripped out, so raiding a monument won't hand you a stack of free currency.
 
 ## Gold can't be stored outside your own territory — or in an ender chest
 
