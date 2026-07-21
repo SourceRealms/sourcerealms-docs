@@ -36,7 +36,7 @@ untouched by these restrictions.
 
 ## Gold can't be stored outside your own territory — or in an ender chest
 
-Gold ingots, blocks, and nuggets can't be put into a chest, barrel, shulker box, furnace, hopper,
+Gold ingots, blocks, nuggets, and raw gold/raw gold blocks can't be put into a chest, barrel, shulker box, furnace, hopper,
 dropper, or dispenser sitting on **unclaimed land**. Trying to place gold into one there fails —
 the container has to be inside a claim. This also catches a shulker box (or bundle) that already
 has gold inside it — you can't launder gold past the rule by hiding it a container deep.
