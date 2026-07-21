@@ -34,21 +34,27 @@ scarce to stop it being trivially farmed. Specifically:
 The only intended sources of gold left are **mining it yourself** and **natural chest loot** — both
 untouched by these restrictions.
 
-## Gold can't be stored outside your own territory
+## Gold can't be stored outside your own territory — or in an ender chest
 
 Gold ingots, blocks, and nuggets can't be put into a chest, barrel, shulker box, furnace, hopper,
 dropper, or dispenser sitting on **unclaimed land**. Trying to place gold into one there fails —
-the container has to be inside a claim.
+the container has to be inside a claim. This also catches a shulker box (or bundle) that already
+has gold inside it — you can't launder gold past the rule by hiding it a container deep.
+
+**Ender chests are off-limits for gold entirely, everywhere** — claimed or not. Ender chest contents
+follow you no matter where you are and can never be raided, so allowing gold in there would make
+claimed-vs-unclaimed meaningless and hand out a permanently un-seizable stash.
 
 This exists because gold is currency (see [Gold Currency](economy/gold.md)): without it, a member
-could sit on a pile of gold in an unclaimed chest to dodge their nation's [tax](economy/tax-upkeep.md),
-or a nation could stash its gold outside its own borders right before losing a war to keep it out of
+could sit on a pile of gold to dodge their nation's [tax](economy/tax-upkeep.md), or a nation could
+stash its gold outside its own borders right before losing a war to keep it out of
 [reparations](war/overview.md#7-the-spoils-reparations) (which only take from the nation bank and
-online members' balances). Keeping gold storage inside claimed territory means it's always inside
-*someone's* jurisdiction — taxable, and fair game if that land is conquered.
+online members' balances). Keeping gold storage inside claimed, raidable territory means it's always
+inside *someone's* jurisdiction — taxable, and fair game if that land is conquered.
 
 It doesn't stop you from hiding gold — a chest behind a secret door on unclaimed land is still just
-as hidden as one in a claim. It only stops using unclaimed land itself as an untouchable vault.
+as hidden as one in a claim. It only stops using unclaimed land (or an ender chest) as an untouchable
+vault.
 
 ## Obsidian isn't TNT-proof anymore
 
