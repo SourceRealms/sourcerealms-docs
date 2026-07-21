@@ -34,6 +34,22 @@ scarce to stop it being trivially farmed. Specifically:
 The only intended sources of gold left are **mining it yourself** and **natural chest loot** — both
 untouched by these restrictions.
 
+## Gold can't be stored outside your own territory
+
+Gold ingots, blocks, and nuggets can't be put into a chest, barrel, shulker box, furnace, hopper,
+dropper, or dispenser sitting on **unclaimed land**. Trying to place gold into one there fails —
+the container has to be inside a claim.
+
+This exists because gold is currency (see [Gold Currency](economy/gold.md)): without it, a member
+could sit on a pile of gold in an unclaimed chest to dodge their nation's [tax](economy/tax-upkeep.md),
+or a nation could stash its gold outside its own borders right before losing a war to keep it out of
+[reparations](war/overview.md#7-the-spoils-reparations) (which only take from the nation bank and
+online members' balances). Keeping gold storage inside claimed territory means it's always inside
+*someone's* jurisdiction — taxable, and fair game if that land is conquered.
+
+It doesn't stop you from hiding gold — a chest behind a secret door on unclaimed land is still just
+as hidden as one in a claim. It only stops using unclaimed land itself as an untouchable vault.
+
 ## Obsidian isn't TNT-proof anymore
 
 Obsidian is normally immune to TNT — here, it isn't. It takes **5 separate TNT explosions** to break
