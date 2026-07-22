@@ -22,7 +22,11 @@ opt into peaceful, neutral status instead.
 ## Leaving and removing members
 
 - **`/nation leave`** — leave your nation. The leader can't leave without disbanding or handing off
-  leadership first.
+  leadership first (see below).
+- **`/nation transfer <player>`** then **`/nation transfer confirm`** — hand off leadership to another
+  member. They become the new leader immediately (full control — disband, roles, everything), and you
+  drop to the nation's default role. There's a 30-second confirm window, and it can't be done while
+  your nation is at war (declared, approved, or mid-battle) — resolve the war first.
 - **`/nation kick <player>`** — remove a member (needs the *Kick Players* permission).
 - **`/nation disband`** then **`/nation disband confirm`** — permanently delete your nation. This
   releases **all** your claims, roles, treaties, letters, and bank balance. There's a 30-second

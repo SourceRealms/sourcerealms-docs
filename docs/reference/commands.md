@@ -11,6 +11,7 @@
 | `/nation accept` / `/nation deny` | Accept / decline an invite |
 | `/nation kick <player>` | Remove a member |
 | `/nation leave` | Leave your nation |
+| `/nation transfer <player>` → `confirm` | Hand off leadership (not while at war) |
 | `/nation disband` → `confirm` | Delete your nation |
 | `/nation info [name]` | Nation details |
 | `/nation list [page]` | All nations |
