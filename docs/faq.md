@@ -69,6 +69,13 @@ the battle, and it's announced in `#nations-news` on Discord.
 Not normally — claims are safe zones. PvP only overrides that **between nations that are actively
 at war**, inside a battle's battlefield.
 
+### Why is PvP/war declaration disabled everywhere right now?
+
+Staff can toggle a server-wide **grace period** (e.g. during launch week or to defuse a situation)
+that turns off PvP and blocks new war declarations completely, everywhere — overriding even an active
+battle's normal rules. It's announced in chat the moment it's turned on or off, so if combat suddenly
+stops working, check chat for that message.
+
 ### I can't break into a base during a battle — why?
 
 As an attacker, the defenders' **existing** structure inside the contested territory is locked to you
