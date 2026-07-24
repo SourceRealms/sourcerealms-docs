@@ -1,5 +1,9 @@
 # Welcome to Source Realms
 
+!!! tip "Join the Discord"
+    New here? **[Join our Discord](https://discord.gg/YAeGbnEEWR)** — it's where announcements,
+    support, and the rest of the community are.
+
 **Source Realms** is a geopolitics-themed Minecraft SMP. You found (or join) a **nation**, claim
 territory, build a government, trade and sign treaties with your neighbours — and if diplomacy
 fails, go to war over the land you both want.
