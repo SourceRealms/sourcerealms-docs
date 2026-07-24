@@ -10,8 +10,8 @@ Each skill levels up from XP earned by doing the matching activity, and unlocks 
 ## Only two skills can be active at once
 
 You can only have **two of your five skills active** at a time, and **only active skills earn
-XP** — the other three sit frozen until you swap. This forces nations to spread expertise between
-their members rather than everyone maxing everything.
+XP**. This forces nations to spread expertise between their members rather than everyone maxing
+everything.
 
 Choose your two with `/skills setactive <skill> <skill>`, or click a skill in the `/skills` GUI.
 **Choose carefully — this choice is permanent.**
