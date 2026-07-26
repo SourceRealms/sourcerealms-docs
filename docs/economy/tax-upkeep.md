@@ -28,7 +28,7 @@ toggle them.
 ## Nation upkeep
 
 Belonging to a nation costs money. Every day, your nation pays **upkeep** from its bank based on how
-many members it has — **5 gold per member** *(default)*. You can see your current daily upkeep in
+many members it has — **20 gold per member** *(default)*. You can see your current daily upkeep in
 the lore of the gold icon on the **Economy** menu.
 
 - It's paid automatically from the nation bank each day.
