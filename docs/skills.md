@@ -84,6 +84,8 @@ below is a no-op while a skill is inactive.
 
 - Wheat, Carrots, Potatoes, Beetroot, Nether Wart (must be **fully grown**): **3 XP**
 - Pumpkin, Melon: **2 XP**
+- Sugar Cane: **2 XP** (cane you planted yourself gives nothing — no wait time otherwise, unlike
+  other crops)
 
 **Combat** — killing mobs or players.
 
@@ -95,6 +97,11 @@ below is a no-op while a skill is inactive.
 | Blaze, Witch, Enderman, Piglin Brute, Evoker, Vindicator, Hoglin, Zoglin, Guardian | 6 |
 | Any other hostile mob | 4 |
 | Passive mobs | 0 |
+
+Killing the **same player** more than **3 times within 10 minutes** stops earning Combat XP (and
+lifesteal) for further kills of them specifically — it resets once that long passes without killing
+them again. This only limits repeat kills of one specific person; fighting different opponents is
+unaffected. It exists so two players can't just repeatedly kill each other to farm XP.
 
 **Enchanting** — every enchant you apply at a table gives **4× its displayed level cost** in XP
 (e.g. a cost-30 enchant gives 120 XP).
