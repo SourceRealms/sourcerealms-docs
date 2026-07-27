@@ -100,6 +100,16 @@ apply to **everyone**, everywhere on the server.
 | Enchanted golden apples | 5 |
 | Totems of undying | 3 |
 
+## TPA is limited to your own nation
+
+`/tpa` and `/tpahere` only work between members of the **same nation** — you can't teleport-request
+your way to a rival (or any other) nation's territory. This keeps travel between nations meaningful
+and pushes infrastructure — roads, portals, boats — to actually be built rather than skipped with a
+teleport. A player with no nation can't TPA to anyone, including other nationless players.
+
+`/tpaall` (request every online player to teleport to you) is disabled outright, since it has no
+single target to check and would otherwise get around the restriction in one command.
+
 ## Difficulty
 
 The server runs on **Hard** difficulty.
