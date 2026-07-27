@@ -1,6 +1,6 @@
 # Skills & Progression
 
-Everyone has **five personal skills** that level up as you play. Skills are **yours** — they
+Everyone has **seven personal skills** that level up as you play. Skills are **yours** — they
 follow you across nations. Open the panel with `/skills` (Java gets a GUI, Bedrock a chat
 readout); check someone else's with `/skills <player>`.
 
@@ -9,7 +9,7 @@ Each skill levels up from XP earned by doing the matching activity, and unlocks 
 
 ## Only two skills can be active at once
 
-You can only have **two of your five skills active** at a time, and **only active skills earn
+You can only have **two of your seven skills active** at a time, and **only active skills earn
 XP**. This forces nations to spread expertise between their members rather than everyone maxing
 everything.
 
@@ -23,10 +23,12 @@ Choose your two with `/skills setactive <skill> <skill>`, or click a skill in th
 | **Farming** | 25% chance for extra crop yield | Crops auto-replant | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
 | **Combat** | 30% less knockback taken | Heal on kill (lifesteal) | 20% less damage taken | Unlocks the **Totem of Undying** |
 | **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Anvil cost reduced by 40% (repairing and combining) | Unlocks **Mending** |
+| **Fishing** | 25% chance of a bonus catch | Junk catches re-rolled toward fish/treasure | Faster bite time | Unlocks the **Trident** |
+| **Alchemy** | -1 brewing-stand fuel cost | Splash potions +15% effect duration | -40% brewing time | Unlocks **Strength II Potions** |
 
 ## Luxury gating: why can't I get that item?
 
-Those five "luxury" items are **completely unobtainable** until you **master** the matching
+Those seven "luxury" items are **completely unobtainable** until you **master** the matching
 skill — reach its max level. This isn't just a crafting block: until you're maxed, you can't get
 one **any** way — not by crafting, smithing, fishing it up, trading for it, or taking it out of a
 loot chest. The one exception is a **gift from a player who has mastered the skill**: if a master
@@ -37,6 +39,10 @@ drops one for you, you can pick it up. Items you already legitimately own are ne
 - **Enchanted Golden Apple** → mastered **Farming**.
 - **Totem of Undying** → mastered **Combat**.
 - **Anything enchanted with (or carrying a book with) Mending** → mastered **Enchanting**.
+- **Trident** → mastered **Fishing**.
+- **Strength II Potions** (regular, splash, or lingering) → mastered **Alchemy**. A master's splash
+  potions still buff whoever they hit, even a non-master ally — the gate only blocks *holding or
+  drinking* one directly, not being splashed by a master's.
 
 ### Crafting a shulker box
 
@@ -106,9 +112,26 @@ unaffected. It exists so two players can't just repeatedly kill each other to fa
 **Enchanting** — every enchant you apply at a table gives **4× its displayed level cost** in XP
 (e.g. a cost-30 enchant gives 120 XP).
 
+**Fishing** — landing a catch.
+
+| Catch | XP |
+|---|---|
+| Treasure (bow, enchanted book, name tag, saddle, nautilus shell) | 8 |
+| Fish (cod, salmon, pufferfish, tropical fish) | 3 |
+| Junk (string, bones, leather, sticks, etc.) | 1 |
+
+**Alchemy** — completing a brew at a brewing stand.
+
+| Potion | XP |
+|---|---|
+| Lingering potion | 10 |
+| Tier-2 potion (e.g. Strength II, Poison II) | 5 |
+| Any other real potion | 2 |
+
 In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar) and its
 milestones — unlocked perks show in the skill's colour, locked ones are white panes with the level
-they require. Your two active skills are marked; the rest show as inactive.
+they require. Your two active skills are marked; the rest show as inactive. With seven skills to
+show, the panel is two pages — use the Next/Back arrows at the bottom.
 
 ## It's a slow grind, on purpose
 
