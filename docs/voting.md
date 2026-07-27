@@ -1,7 +1,7 @@
 # Voting
 
 Voting for the server on public server lists is the single easiest way to help it grow — and you get
-paid for it. **Each vote earns you 25 gold**, and you can vote on **every site once per day**.
+paid for it. **Each vote earns you 10 gold**, and you can vote on **every site once per day**.
 
 ## How to vote
 
@@ -17,6 +17,6 @@ it'll be waiting in your balance.
 
 ## Good to know
 
-- **25 gold per vote**, per site, once every 24 hours.
+- **10 gold per vote**, per site, once every 24 hours.
 - Use your **exact username** on the vote site — that's how the reward finds you.
 - Gold is the server currency — see [Gold Currency](economy/gold.md) for what to spend it on.
