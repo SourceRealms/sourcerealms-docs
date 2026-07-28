@@ -120,11 +120,12 @@ unaffected. It exists so two players can't just repeatedly kill each other to fa
 | Fish (cod, salmon, pufferfish, tropical fish) | 3 |
 | Junk (string, bones, leather, sticks, etc.) | 1 |
 
-**Alchemy** — completing a brew at a brewing stand.
+**Alchemy** — completing a brew at a brewing stand. (Lingering potions need Dragon's Breath, which
+only comes from the End — disabled server-wide, see [World Rules](world-rules.md) — so they aren't a
+route to XP here.)
 
 | Potion | XP |
 |---|---|
-| Lingering potion | 10 |
 | Tier-2 potion (e.g. Strength II, Poison II) | 5 |
 | Any other real potion | 2 |
 
