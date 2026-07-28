@@ -99,6 +99,7 @@ apply to **everyone**, everywhere on the server.
 | Wind charges | 64 (1 stack) — and they **can't be crafted** |
 | Enchanted golden apples | 5 |
 | Totems of undying | 3 |
+| Cobwebs | 64 (1 stack) — counted even if stashed inside a shulker box or bundle |
 
 ## TPA is limited to your own nation
 

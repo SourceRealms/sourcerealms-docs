@@ -93,12 +93,13 @@ below is a no-op while a skill is inactive.
 - Sugar Cane: **2 XP** (cane you planted yourself gives nothing — no wait time otherwise, unlike
   other crops)
 
-**Combat** — killing mobs or players.
+**Combat** — killing mobs or players. (The Ender Dragon isn't listed — it only exists in the End,
+which is disabled server-wide, see [World Rules](world-rules.md).)
 
 | Kill | XP |
 |---|---|
 | Player (PvP) | 15 |
-| Ender Dragon, Wither | 100 |
+| Wither | 100 |
 | Warden, Elder Guardian, Ravager | 20 |
 | Blaze, Witch, Enderman, Piglin Brute, Evoker, Vindicator, Hoglin, Zoglin, Guardian | 6 |
 | Any other hostile mob | 4 |
