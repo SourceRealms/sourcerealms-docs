@@ -49,9 +49,9 @@ drops one for you, you can pick it up. Items you already legitimately own are ne
 Shulker boxes are made with this recipe:
 
 ```
-Diamond      Purple Dye   Diamond
-Purple Dye   Chest        Purple Dye
-Emerald      Purple Dye   Emerald
+Diamond           Phantom Membrane   Diamond
+Phantom Membrane  Chest              Phantom Membrane
+Emerald           Phantom Membrane   Emerald
 ```
 
 ### Crafting an Enchanted Golden Apple
