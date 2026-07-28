@@ -49,10 +49,8 @@
 
 | Command | Description |
 |---|---|
-| `/nation chat` | Show which chat channel you're currently on |
-| `/nation chat public` | Switch to public chat (the default — everyone sees it) |
-| `/nation chat nation` | Switch to nation chat (only your nation sees it) |
-| `/nation chat ally` | Switch to ally chat (your nation + allied nations see it) |
+| `/nc <message>` | Message your nation privately |
+| `/ac <message>` | Message your nation + allies privately |
 
 ## Neutrality & War
 
