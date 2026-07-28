@@ -20,7 +20,7 @@ Choose your two with `/skills setactive <skill> <skill>`, or click a skill in th
 |---|---|---|---|---|
 | **Mining** | 25% chance to double ore drops | Ores auto-smelt when mined | Haste while mining | Unlocks **Netherite** |
 | **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | Haste while chopping | Unlocks **Shulker Boxes** |
-| **Farming** | 25% chance for extra crop yield | Crops auto-replant | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
+| **Farming** | 25% chance for extra crop yield | Crops auto-replant (doesn't apply to Pumpkin/Melon, and Cocoa always auto-replants regardless of level) | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
 | **Combat** | 30% less knockback taken | Heal on kill (lifesteal) | 20% less damage taken | Unlocks the **Totem of Undying** |
 | **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Anvil cost reduced by 40% (repairing and combining) | Unlocks **Mending** |
 | **Fishing** | 25% chance of a bonus catch | Junk catches re-rolled toward fish/treasure | Faster bite time | Unlocks the **Trident** |
@@ -88,10 +88,14 @@ below is a no-op while a skill is inactive.
 
 **Farming** — harvesting crops.
 
-- Wheat, Carrots, Potatoes, Beetroot, Nether Wart (must be **fully grown**): **3 XP**
+- Wheat, Carrots, Potatoes, Beetroot, Nether Wart, Cocoa (must be **fully grown**): **3 XP**
 - Pumpkin, Melon: **2 XP**
 - Sugar Cane: **2 XP** (cane you planted yourself gives nothing — no wait time otherwise, unlike
   other crops)
+
+Cocoa is harvested the normal vanilla way (right-click a fully-grown pod) — it drops beans and
+resets to a fresh pod on its own, for every player regardless of level, so there's no separate
+"auto-replant" to unlock for it.
 
 **Combat** — killing mobs or players. (The Ender Dragon isn't listed — it only exists in the End,
 which is disabled server-wide, see [World Rules](world-rules.md).)
