@@ -48,8 +48,19 @@ Inside your claims, outsiders can't:
 - Trigger **explosions**, spread **fire**, or cause **mob griefing** that damages your blocks.
 - Harm your **animals, item frames, paintings, or vehicles**.
 - Push blocks in with **pistons** or flow **fluids** across your border.
-- **PvP is disabled inside claims** — claims are safe zones… *unless* the two players' nations are
-  at war and it's an active battle (see [Declaring War](../war/overview.md)).
+- **Build in the unclaimed wilderness right next to your wall** — placing blocks is blocked within
+  1 chunk of any claim that isn't the placer's own, so a trespasser can't just tower or bridge over
+  from just outside it.
+
+**PvP in your claim is one-directional**: an intruder can't damage anyone standing in your
+territory, but a member of your nation can freely fight back against them — a deliberate anti-troll
+rule, not a loophole for the intruder. This flips two ways: during an active war battle, both sides
+may fight anywhere including inside claims (see [Declaring War](../war/overview.md)); and if a
+fight was already underway before either player crossed the border, it keeps going — retreating
+into a claim mid-fight doesn't grant safety. Separately, **nation members can never PvP each
+other**, in claims or the wilderness alike — friendly fire is always off.
+
+You also can't `/sethome` inside a claim that isn't your own nation's, or within 4 chunks of one.
 
 When you cross a border you'll see the nation's name (in its colour) and its leader as a title
 and/or action-bar message.

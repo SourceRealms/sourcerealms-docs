@@ -66,8 +66,11 @@ the battle, and it's announced in `#nations-news` on Discord.
 
 ### Can I fight in someone's claim?
 
-Not normally — claims are safe zones. PvP only overrides that **between nations that are actively
-at war**, inside a battle's battlefield.
+Only the owners can start it — a claim is a one-way safe zone. A member of the owning nation can
+freely hit an intruder standing in their territory, but the intruder can never hit back. That flips
+during an active war battle between the two nations (both sides may fight anywhere inside the
+battlefield), and a fight already underway before either player crossed the border keeps going —
+retreating into a claim mid-fight doesn't grant safety.
 
 ### Why is PvP/war declaration disabled everywhere right now?
 

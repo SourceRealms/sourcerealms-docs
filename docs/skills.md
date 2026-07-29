@@ -9,9 +9,10 @@ Each skill levels up from XP earned by doing the matching activity, and unlocks 
 
 ## Only two skills can be active at once
 
-You can only have **two of your seven skills active** at a time, and **only active skills earn
-XP**. This forces nations to spread expertise between their members rather than everyone maxing
-everything.
+You can only have **two of your seven skills active** at a time, and **only active skills earn XP
+or grant their perks** — swap a skill out and its perks pause (your level and progress are kept,
+and come right back if you reactivate it later). This forces nations to spread expertise between
+their members rather than everyone maxing everything.
 
 Choose your two with `/skills setactive <skill> <skill>`, or click a skill in the `/skills` GUI.
 **Choose carefully — this choice is permanent.**
@@ -19,20 +20,22 @@ Choose your two with `/skills setactive <skill> <skill>`, or click a skill in th
 | Skill | Lv 3 | Lv 6 | Lv 9 | Mastery (max level) |
 |---|---|---|---|---|
 | **Mining** | 25% chance to double ore drops | Ores auto-smelt when mined | Haste while mining | Unlocks **Netherite** |
-| **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | Haste while chopping | Unlocks **Shulker Boxes** |
-| **Farming** | 25% chance for extra crop yield | Crops auto-replant (doesn't apply to Pumpkin/Melon) | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
+| **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | +20% axe attack speed while one's held | Unlocks **Shulker Boxes** |
+| **Farming** | +25% hunger/saturation from farmed food | Crops auto-replant (doesn't apply to Pumpkin/Melon) | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
 | **Combat** | 30% less knockback taken | Heal on kill (lifesteal) | 20% less damage taken | Unlocks the **Totem of Undying** |
 | **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Anvil cost reduced by 40% (repairing and combining) | Unlocks **Mending** |
-| **Fishing** | 25% chance of a bonus catch | Junk catches re-rolled toward fish/treasure | Faster bite time | Unlocks the **Trident** |
+| **Fishing** | 25% chance of a bonus catch | Junk catches re-rolled toward fish/treasure | Faster bite time, plus a rare chance at a [legendary catch](#legendary-catches) | Unlocks the **Trident** |
 | **Alchemy** | -1 brewing-stand fuel cost | Splash potions +15% effect duration | -40% brewing time | Unlocks **Strength II Potions** |
 
 ## Luxury gating: why can't I get that item?
 
 Those seven "luxury" items are **completely unobtainable** until you **master** the matching
-skill — reach its max level. This isn't just a crafting block: until you're maxed, you can't get
-one **any** way — not by crafting, smithing, fishing it up, trading for it, or taking it out of a
-loot chest. The one exception is a **gift from a player who has mastered the skill**: if a master
-drops one for you, you can pick it up. Items you already legitimately own are never taken away.
+skill — reach its max level **and** currently have that skill active. This isn't just a crafting
+block: until then, you can't get one **any** way — not by crafting, smithing, fishing it up,
+trading for it, or taking it out of a loot chest. The one exception is a **gift from a player who
+has mastered the skill**: if a master drops one for you, you can pick it up. Items you already
+legitimately own are never taken away — but if you swap a mastered skill out, you won't be able to
+obtain a *new* one of its luxury until you swap it back in.
 
 - **Netherite** (ingots, blocks, scrap, and any netherite gear) → mastered **Mining**.
 - **Shulker Boxes** (any colour) → mastered **Woodcutting**.
@@ -96,6 +99,10 @@ below is a no-op while a skill is inactive.
 Cocoa is harvested the same way as wheat/carrots — break the pod, then replant beans on the log —
 not by right-clicking it.
 
+At level 3, eating **Bread, Cookie, Carrot, Golden Carrot, Potato, Baked Potato, Beetroot,
+Beetroot Soup, Pumpkin Pie, Melon Slice, Sweet Berries, Glow Berries, or Mushroom Stew** restores
+25% more hunger and saturation than normal.
+
 **Combat** — killing mobs or players. (The Ender Dragon isn't listed — it only exists in the End,
 which is disabled server-wide, see [World Rules](world-rules.md).)
 
@@ -123,6 +130,21 @@ unaffected. It exists so two players can't just repeatedly kill each other to fa
 | Treasure (bow, enchanted book, name tag, saddle, nautilus shell) | 8 |
 | Fish (cod, salmon, pufferfish, tropical fish) | 3 |
 | Junk (string, bones, leather, sticks, etc.) | 1 |
+
+### Legendary catches
+
+Once Fishing is active at **level 9**, every catch has a small chance (1%) to instead be one of two
+curated legendary weapons — a separate, repeatable reward from the one-time Trident unlock at
+mastery:
+
+- **Ocean's Wrath** (diamond sword) — Sharpness IV, Sweeping Edge III, Fire Aspect II
+- **Storm Breaker** (diamond axe) — Sharpness IV, Sweeping Edge III, Knockback II (Sweeping Edge
+  can't normally go on an axe at all)
+
+These enchant combinations can't be produced through any normal enchanting table or anvil path.
+The catch is a genuine power spike, but a temporary one: it comes with only **20% of its normal
+durability**, and it can never be repaired, renamed, or combined at an anvil — once it wears out,
+it's gone for good.
 
 **Alchemy** — completing a brew at a brewing stand. (Lingering potions need Dragon's Breath, which
 only comes from the End — disabled server-wide, see [World Rules](world-rules.md) — so they aren't a
