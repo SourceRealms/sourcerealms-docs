@@ -137,13 +137,13 @@ Once Fishing is active at **level 9**, every catch has a small chance (1%) to in
 curated legendary weapons — a separate, repeatable reward from the one-time Trident unlock at
 mastery:
 
-- **Ocean's Wrath** (netherite sword) — Sharpness V, Smite V, Fire Aspect II (Sharpness and Smite
-  are normally mutually exclusive — an anvil refuses to add either to an item already carrying the
-  other)
-- **Storm Breaker** (netherite axe) — Sharpness V, Sweeping Edge III, Knockback II (Sweeping Edge
-  can't normally go on an axe at all)
+- **Ocean's Wrath** (netherite sword) — Sharpness VIII, Fire Aspect III
+- **Storm Breaker** (netherite axe) — Sharpness VIII, Sweeping Edge III, Knockback III
 
-These enchant combinations can't be produced through any normal enchanting table or anvil path.
+Each pushes at least one enchant past its normal vanilla cap (Sharpness maxes at V, Fire Aspect and
+Knockback at II) — unmistakable at a glance. The axe's Sweeping Edge is a second tell, since vanilla
+doesn't allow that enchant on an axe at all. None of this is producible through any normal
+enchanting table or anvil path.
 Being netherite would normally require mastering Mining first, but a legendary catch bypasses that
 gate entirely — it's exempt regardless of your Mining level, the same way a live gift from a master
 is. The catch is a genuine power spike, but a temporary one: it comes with only **20% of its normal
