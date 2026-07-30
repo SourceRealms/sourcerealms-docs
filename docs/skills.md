@@ -146,7 +146,7 @@ doesn't allow that enchant on an axe at all. None of this is producible through 
 enchanting table or anvil path.
 Being netherite would normally require mastering Mining first, but a legendary catch bypasses that
 gate entirely — it's exempt regardless of your Mining level, the same way a live gift from a master
-is. The catch is a genuine power spike, but a temporary one: it comes with only **20% of its normal
+is. The catch is a genuine power spike, but a temporary one: it comes with only **10% of its normal
 durability**, and it can never be repaired, renamed, or combined at an anvil — once it wears out,
 it's gone for good.
 

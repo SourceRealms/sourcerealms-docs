@@ -51,6 +51,11 @@ Inside your claims, outsiders can't:
 - **Build in the unclaimed wilderness right next to your wall** — placing blocks is blocked within
   1 chunk of any claim that isn't the placer's own, so a trespasser can't just tower or bridge over
   from just outside it.
+- **Splash a harmful potion** (poison, wither, weakness, instant damage, etc.) at your animals or
+  your members from outside — it just has no effect. Beneficial potions (healing, strength, and so
+  on) aren't affected, so sharing a buff with a visiting ally still works fine.
+- **Hook you with a fishing rod** and reel you out of your own claim.
+- **Place a boat** inside your claim to leave as clutter.
 
 **PvP in your claim is one-directional**: an intruder can't damage anyone standing in your
 territory, but a member of your nation can freely fight back against them — a deliberate anti-troll

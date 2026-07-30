@@ -27,7 +27,7 @@ automatically slotted into the **next available weekly session**.
 
 ## 2. The weekly war session
 
-All battles happen at a **fixed weekly slot: Friday, 18:00–00:00 (UK time)**. Only **one war** can
+All battles happen at a **fixed weekly slot: Friday, 20:00–02:00 (UK time)**. Only **one war** can
 be scheduled per session, and at most **two upcoming sessions** can be booked at once. When you
 declare:
 
