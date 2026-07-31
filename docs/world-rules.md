@@ -110,9 +110,6 @@ your way to a rival (or any other) nation's territory. This keeps travel between
 and pushes infrastructure — roads, portals, boats — to actually be built rather than skipped with a
 teleport. A player with no nation can't TPA to anyone, including other nationless players.
 
-`/tpaall` (request every online player to teleport to you) is disabled outright, since it has no
-single target to check and would otherwise get around the restriction in one command.
-
 ## Difficulty
 
 The server runs on **Hard** difficulty.
