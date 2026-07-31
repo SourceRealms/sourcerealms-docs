@@ -86,6 +86,20 @@ the contested territory:
 - A nation whose land is at stake can concede with `/nation war surrender <nation>` (or
   `/nation surrender <nation>`).
 
+### Watching a battle you're not fighting in
+
+Anyone — not just the two nations involved — can watch an ongoing battle:
+
+```
+/nation spectate
+```
+
+Run it once to be dropped in above the battlefield in spectator mode (you can't be seen or hit, and
+can't affect anything); run it again to return to exactly where — and how — you were before. Like a
+real participant, you **can't leave the battlefield** while spectating, so it's watch-until-you're-
+done rather than a quick peek. You can't spectate a war your own nation is actively fighting in —
+you're either a combatant or an onlooker, not both.
+
 ### Building and breaking during a battle
 
 The battlefield has two zones, and they play differently:
