@@ -20,7 +20,7 @@ different claim allowances:
 | | **Warlike** | **Neutral** |
 |---|---|---|
 | Base claim capacity | 10 chunks | 25 chunks |
-| Extra claims per member | +5 | +5 |
+| Extra claims per member | +8 | +8 |
 | Max separate territory clusters ("colonies") | 3 | 5 |
 
 A neutral nation gets a much larger, more scattered builder-friendly allowance in exchange for
