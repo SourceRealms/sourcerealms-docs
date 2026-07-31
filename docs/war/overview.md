@@ -71,10 +71,22 @@ before it starts** *(configurable)*, and a final **"battle begun" announcement**
 kicks off. Anyone offline when a reminder fires is caught up the next time they log in. The first
 reminder is also when [allies can answer the call to arms](allies.md).
 
-## 6. The battle
+## 6. Ready up
 
-When the timer hits zero, everyone online on both sides is teleported to a **battlefield** around
-the contested territory:
+The battle doesn't start the instant the session slot arrives. Once it does, each nation's **leader**
+gets a **30-minute ready-up window** to confirm with:
+
+```
+/nation war ready
+```
+
+If **both** leaders ready up, the battle starts immediately — no need to wait out the clock. If the
+window runs out first, the battle starts automatically regardless of who's readied up.
+
+## 7. The battle
+
+Once the battle actually starts (either because both sides readied up, or the window ran out),
+everyone online on both sides is teleported to a **battlefield** around the contested territory:
 
 - Attackers spawn just outside the territory; defenders spawn at its centre.
 - You **can't leave the battlefield** — reaching the edge bounces you back rather than teleporting
@@ -149,7 +161,7 @@ That gives you a **War Cannon** item. Then, during a battle:
 A cannon is only as good as its barrel: if the **barrel** or the **trigger** gets broken (or blown
 up), the cannon is **wrecked** and becomes an inert pile of blocks — you'll need a fresh one.
 
-## 7. The spoils (reparations)
+## 8. The spoils (reparations)
 
 If the **attacker wins**, they:
 

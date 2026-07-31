@@ -102,6 +102,7 @@ apply to **everyone**, everywhere on the server.
 | Totems of undying | 3 |
 | Cobwebs | 64 (1 stack) — counted even if stashed inside a shulker box or bundle |
 | Experience bottles | 64 (1 stack) |
+| Slow Falling potions | 3 (regular, splash, and lingering all count together) |
 
 ## TPA is limited to your own nation
 
