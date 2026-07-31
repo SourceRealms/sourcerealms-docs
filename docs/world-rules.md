@@ -100,6 +100,7 @@ apply to **everyone**, everywhere on the server.
 | Enchanted golden apples | 5 |
 | Totems of undying | 3 |
 | Cobwebs | 64 (1 stack) — counted even if stashed inside a shulker box or bundle |
+| Experience bottles | 64 (1 stack) |
 
 ## TPA is limited to your own nation
 
