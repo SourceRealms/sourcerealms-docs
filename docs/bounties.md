@@ -12,6 +12,9 @@ This offers **`<killer>`** a contract: kill **`<target>`** and get paid **`<amou
 gold is taken from you the moment you place the offer — it's held safely until the contract is
 resolved one way or another, so you're never on the hook for more than you agreed to pay.
 
+You have to be **within 10 blocks of the killer** (and they have to be online) to place the offer
+— it's a face-to-face handoff, not something you can arrange remotely.
+
 ## Accepting or declining
 
 The player you named as killer gets a private heads-up and has to respond:
