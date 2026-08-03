@@ -169,3 +169,7 @@ show, the panel is two pages — use the Next/Back arrows at the bottom.
 Skills are meant to be a **long-term** goal, not something maxed in a day or two of casual play.
 The XP curve gets steeper every level, and the higher-value actions (rare ores, tough kills,
 expensive enchants) are the ones actually worth pursuing if you want to level efficiently.
+
+On top of that curve, every skill needs **4x** the XP shown in the tables above to actually level
+up, **except Alchemy, which needs 2x**. The numbers in the tables are still the right ones to
+compare actions against each other — they're just not the raw amount that lands on your bar.
