@@ -70,8 +70,8 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 | 3 | 30% less knockback taken |
 | 4 | 5% chance to fully negate knockback |
 | 5 | -50% shield durability loss while blocking |
-| 6 | Heal on kill (lifesteal) |
-| 7 | More healing on kill (replaces Lv 6's amount) |
+| 6 | Heal 1 heart on each kill (lifesteal) |
+| 7 | Heal 1.5 hearts on each kill (replaces Lv 6's amount) |
 | 8 | 5% chance to fully negate a melee hit |
 | 9 | 20% less damage taken |
 
