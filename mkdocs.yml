@@ -70,6 +70,7 @@ nav:
       - Roleplay Features: roleplay-features.md
       - Random Teleport: rtp.md
       - Skills & Progression: skills.md
+      - Bounties: bounties.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md
