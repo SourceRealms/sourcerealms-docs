@@ -248,10 +248,10 @@ route to XP here.)
 | Tier-2 potion (e.g. Strength II, Poison II) | 5 |
 | Any other real potion | 2 |
 
-In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar), two "Perks"
-panes listing levels 2-5 and 6-9 (hover to see which ones you've unlocked), and mastery on the end.
-Your two active skills are marked; the rest show as inactive. With seven skills to show, the panel
-is two pages — use the Next/Back arrows at the bottom.
+`/skills` opens a menu with all seven skills laid out in a row — click one to see its full
+breakdown: a summary at the top (level, XP bar, and whether it's one of your two active skills —
+click it to toggle active/inactive), then every perk level from 2 to 9 plus Mastery, each in its
+own slot showing whether you've unlocked it. Use the Back button to return to the skill list.
 
 ## It's a slow grind, on purpose
 
