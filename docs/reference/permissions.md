@@ -21,6 +21,7 @@ Permissions live on **roles**, not individual members - see
 | **Edit Banner** | Edit the nation banner |
 | **Rename Nation** | Rename the nation and change its tag |
 | **Send Announcements** | Broadcast nation announcements |
+| **Manage Plots** | Assign or release personal plots on claimed chunks |
 | **Disband Nation** | Disband the nation *(leader only)* |
 
 ## Default roles
@@ -29,7 +30,8 @@ Permissions live on **roles**, not individual members - see
   to the bank - but **cannot claim/unclaim land**.
 - **Trusted** adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**,
   and **Send Announcements**.
-- The **Leader** always has every permission.
+- The **Leader** always has every permission, including **Manage Plots** - the only one not granted
+  to Member or Trusted by default.
 
 !!! info
     Claiming and unclaiming land is a **Trusted-level** ability by default - a plain Member can't

@@ -11,6 +11,36 @@ Claims are **per chunk** (a 16×16 column). Stand in a chunk and:
 Claiming and unclaiming need the **Claim Land** / **Unclaim Land** permissions - Trusted-level by
 default (see [Roles & Permissions](roles-permissions.md)).
 
+## Personal plots
+
+A nation-claimed chunk can be handed to one or more specific members as a **personal plot** - within
+it, only they (or the nation leader, always) can build, break, open containers, or use doors/levers.
+Every other member loses build rights there too, even ones who'd normally be allowed to build
+anywhere in the nation's territory. It's meant for two things: a bit of protection against
+accidental (or not-so-accidental) griefing between nation-mates, and a real personal space - a house
+that's actually yours, even inside shared territory.
+
+Requires the **Manage Plots** permission (not granted to any role by default except the Leader -
+a nation must deliberately hand it out, same as any other permission):
+
+| Command | What it does |
+|---|---|
+| `/nation plot claim <player> [player2] [...]` | Turn the chunk you're standing in into a personal plot for those member(s). |
+| `/nation plot release` | Release the current chunk back to plain nation territory. |
+| `/nation plot info` | Check who (if anyone) the current chunk is plotted to. |
+| `/nation plot list` | List every personal plot in your nation. |
+
+A few things worth knowing:
+
+- Plots are **per chunk** - a bigger house needs the command run once per chunk it covers.
+- Targets must already be members of your own nation - you can't hand a plot to an outsider.
+- If a plotted member is **kicked or leaves**, their plot access is automatically released - it
+  doesn't sit there locked forever.
+- If a plotted chunk is **lost in a war**, the plot restriction is wiped along with the ownership
+  change - the new owner doesn't inherit someone else's house rule.
+- There's no limit on how many chunks a nation can turn into personal plots - that's entirely up to
+  whoever holds the Manage Plots permission.
+
 ## Rules and limits
 
 Your ruleset depends on whether your nation is **neutral or warlike** - see

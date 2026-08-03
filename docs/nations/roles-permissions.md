@@ -38,6 +38,7 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 | **Edit Banner** | Edit the nation banner |
 | **Rename Nation** | Rename the nation and change its tag |
 | **Send Announcements** | Broadcast nation announcements |
+| **Manage Plots** | Assign or release [personal plots](claims-territory.md#personal-plots) on claimed chunks |
 | **Disband Nation** | Disband the nation *(leader only)* |
 
 ## Default roles
@@ -52,6 +53,9 @@ points, not fixed tiers.
   Announcements** on top of everything Member has.
 - The **Leader** always has every permission, regardless of role edits, and can't be reassigned or
   kicked.
+
+**Manage Plots** isn't included in Member or Trusted's starting permissions - only the Leader has it
+by default. Grant it to Trusted (or a custom role) if you want to delegate assigning personal plots.
 
 !!! info "Claiming is Trusted-level by default"
     A plain Member can't claim or unclaim land unless their role is specifically granted the

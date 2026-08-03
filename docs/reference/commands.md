@@ -24,6 +24,10 @@
 | `/nation map` | Nearby-claims mini-map |
 | `/nation capital set <name>` | Set & name your capital here |
 | `/nation capital` | Teleport to your capital |
+| `/nation plot claim <player> [...]` | Turn the current chunk into a personal plot for those member(s) |
+| `/nation plot release` | Release the current chunk back to plain nation territory |
+| `/nation plot info` | Check who the current chunk is plotted to |
+| `/nation plot list` | List every personal plot in your nation |
 
 ## Roles & permissions
 
