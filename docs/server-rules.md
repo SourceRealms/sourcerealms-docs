@@ -4,59 +4,92 @@ Source Realms is a brand-new server, actively being built and balanced. Rules, m
 features may change as we learn what works. If something feels unfair or broken, report it -
 don't exploit it.
 
-## 1. No cheating
+## 1. Fair play & allowed modifications
 
-Hacked clients, X-ray, autoclickers/macros for combat advantage, and any client modification that
-gives an unfair edge over normal gameplay are banned outright. Cosmetic/utility mods (minimap
-without cave/ore reveal, zoom, etc.) are fine.
+Hacked clients, exploits, and unfair client modifications are strictly prohibited.
 
-## 2. No exploiting bugs or glitches
+**Allowed:**
 
-If you find a bug - a claim protection gap, an economy dupe, a way to break a game mechanic -
-report it to staff. Using it for advantage (before or after reporting) is a bannable offense. This
-is a new server built by one developer; bugs will happen. How you respond to finding one is what
-matters.
+| Category | Mods |
+|---|---|
+| Performance & visuals | Sodium, OptiFine, Iris, shader packs, Dynamic Lights |
+| Utility | Zoom mods (Ok Zoomer, WI Zoom), armor/status-effect HUDs, shield status |
+| Schematics | Litematica - but printer/auto-build features **must be completely disabled** |
+| Minimaps | Allowed **only** if cave rendering, ore radar, entity tracking, and player tracking are fully disabled |
 
-## 3. Chat and community conduct
+**Prohibited:**
 
-Same standard as Discord: be respectful, no harassment or hate speech, no spam/advertising, keep it
-in English in public channels. Staff decisions are final - if you disagree, raise it privately
-rather than arguing in chat.
+- **X-ray** - texture packs, mods, shaders, or seed-reading tools.
+- **Combat macros & automation** - autoclickers, combat macros, hardware-level key remapping for
+  combat speed, auto-slam, or auto-totem.
+- **Inventory & movement** - InvMove, ChestStealer, Auto-Eat, Freecam, Baritone, or reach/hitbox
+  modifiers.
+- **Unfair information** - health indicators, armor HUDs showing opponent durability in real time,
+  or any mod revealing hidden player data.
 
-## 4. Staff instructions
+## 2. Bugs, exploits & duplication
 
-If staff asks you to stop an action or steps in to resolve a dispute, comply first and raise
-concerns after. Staff are also still learning this server alongside everyone else - good faith
-goes both ways.
+Exploiting mechanics to gain an unintended advantage is forbidden. This is a new server built by
+one developer; bugs will happen. How you respond to finding one is what matters.
 
-## 5. No lag machines
+- **Reporting:** if you discover a bug (economy dupes, claim-protection bypasses, item dupes,
+  mechanical glitches) report it to staff via a Discord ticket immediately.
+- **Enforcement:** using a bug for personal or nation gain - even once - results in a ban and a
+  full rollback of affected items or land.
+- **Plugin interactions:** standard redstone mechanics built into normal gameplay are fine, but
+  abusing broken plugin interactions or mod incompatibilities counts as exploiting.
 
-Farms, redstone contraptions, or entity stacking/breeding designed to cause server lag are not
-allowed. If something you built turns out to be causing lag, expect staff to ask you to modify or
-remove it.
+## 3. PvP & combat rules
 
-## 6. Appropriate names and builds
+Because combat and warfare are core features, clear engagement rules keep fights competitive and
+clean.
 
-Nation names, banners, signs, and builds shouldn't include offensive, NSFW, or otherwise
-inappropriate content.
+- **Combat logging:** disconnecting while in active combat or within a PvP radius is strictly
+  prohibited - the server plugin also enforces this automatically. If your game crashes mid-fight,
+  notify staff or your opponent immediately with proof so you can discuss a potential fight
+  restart.
+- **Spawn camping:** repeatedly killing freshly spawned players, or trapping players at a server
+  spawn or `/sethome` point to farm kills and lock them out of playing, is strictly prohibited.
 
-## 7. Impersonating staff
+## 4. Nations, base design & war eligibility
 
-Don't pretend to be a moderator or admin - in chat, DMs, or in-game - to mislead other players.
+Political scheming and war are encouraged - non-interactive base design just ruins warfare for
+everyone.
 
-## 8. No ban evasion
+- **Good faith play:** betrayal, espionage, and political maneuvers are encouraged if they drive a
+  narrative, war, or power play. Joining a nation solely to clean out all its chests and
+  permanently leave 10 minutes later ("griefing with extra steps") is strictly prohibited.
+- **Base entrance requirement:** every nation base, bunker, or claim must have at least one
+  accessible, breachable, surface-level or natural entrance leading to its main interior. Fully
+  sealed obsidian/lava boxes or subterranean bunkers that rely strictly on ender pearls, chorus
+  fruit, or `/sethome` to enter are illegal.
+- **War defensive disqualification:** nations with illegal, unbreachable bases forfeit their right
+  to defend during official wars. Staff reserve the right to force-open illegal bases or strip
+  claim protection from non-compliant structures during war events.
+- **Claim-blocking:** claiming single chunks directly adjacent to an enemy nation solely to block
+  their expansion or spawn-trap them, outside of a declared war, is prohibited.
+- **Inappropriate content:** nation names, town titles, banners, signs, and builds must remain
+  PG-13. Explicit, hateful, or discriminatory content is removed immediately, without refund or
+  warning.
 
-Logging in on an alt account to bypass a ban or mute gets that account banned too, and resets the
-clock on the original punishment.
+## 5. Server integrity & lag control
 
-## 9. No advertising other servers
+Keep the server running smoothly for everyone.
 
-Don't promote other Minecraft servers in chat or DMs, solicited or not.
+- **Lag machines & unoptimized builds:** any redstone clock, mob/entity stacker, or farm built with
+  the intent or effect of tanking server TPS is strictly banned.
+- **Staff enforcement:** if staff identify a build causing significant server lag, you'll be
+  instructed to remake it lag-free. Failing to modify the build results in staff destroying the
+  machine and issuing a temporary ban.
 
-## 10. Play in good faith
+## 6. Chat, community & staff interactions
 
-Betrayal, backstabbing, and political scheming are part of the game - a plot twist that serves a
-story or a power play is always fair game. What's not okay is joining in purely to sabotage other
-players' fun with no goal beyond ruining it for them: joining a nation just to loot it and vanish,
-or tanking someone's roleplay or plans for no reason other than that you can. If in doubt, ask
-yourself whether what you're doing is part of a scheme, or just griefing with extra steps.
+Treat the community with basic respect, even when at war.
+
+- **Chat standards:** harassment, hate speech, severe toxic flaming, advertising other servers, and
+  spamming are banned. Public chat must stay in English.
+- **Staff authority:** staff decisions during active disputes are final on the spot, to keep
+  gameplay moving. If you disagree with a ruling, comply first and open a private Discord ticket
+  afterward.
+- **Impersonation & ban evasion:** don't pretend to be a staff member. Logging onto alt accounts to
+  bypass a ban or mute results in a permanent ban for all linked accounts.
