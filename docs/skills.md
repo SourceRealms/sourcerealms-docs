@@ -29,7 +29,7 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 |---|---|
 | 2 | 10% chance to double ore drops (taste of Lv 3) |
 | 3 | 25% chance to double ore drops |
-| 4 | -15% pickaxe durability loss |
+| 4 | 15% chance a mined block costs no pickaxe durability |
 | 5 | +1 bonus XP orb per ore |
 | 6 | Ores auto-smelt when mined |
 | 7 | -50% fall damage while Mining is active |
@@ -42,7 +42,7 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 |---|---|
 | 2 | 10% chance to double log drops (taste of Lv 3) |
 | 3 | 25% chance to double log drops |
-| 4 | -15% axe durability loss |
+| 4 | 15% chance a chopped log costs no axe durability |
 | 5 | 10% chance a chopped log flies straight to your inventory |
 | 6 | Fell whole trees with an axe |
 | 7 | +10% axe attack speed while one's held (taste of Lv 9) |
@@ -69,7 +69,7 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 | 2 | 5% less knockback taken (taste of Lv 3) |
 | 3 | 30% less knockback taken |
 | 4 | 5% chance to fully negate knockback |
-| 5 | -50% shield durability loss while blocking |
+| 5 | 50% chance blocking costs no shield durability |
 | 6 | Heal 1 heart on each kill (lifesteal) |
 | 7 | Heal 1.5 hearts on each kill (replaces Lv 6's amount) |
 | 8 | 5% chance to fully negate a melee hit |
