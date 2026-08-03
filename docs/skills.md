@@ -4,8 +4,9 @@ Everyone has **seven personal skills** that level up as you play. Skills are **y
 follow you across nations. Open the panel with `/skills` (Java gets a GUI, Bedrock a chat
 readout); check someone else's with `/skills <player>`.
 
-Each skill levels up from XP earned by doing the matching activity, and unlocks **perks at levels
-3, 6, and 9**, plus a **luxury item unlock at the max level** *(default 10)*.
+Each skill levels up from XP earned by doing the matching activity. **Every level from 2 up to the
+max grants something** — not just a handful of milestones — plus a **luxury item unlock at the max
+level** *(default 10)*.
 
 ## Only two skills can be active at once
 
@@ -17,15 +18,101 @@ their members rather than everyone maxing everything.
 Choose your two with `/skills setactive <skill> <skill>`, or click a skill in the `/skills` GUI.
 **Choose carefully — this choice is permanent.**
 
-| Skill | Lv 3 | Lv 6 | Lv 9 | Mastery (max level) |
-|---|---|---|---|---|
-| **Mining** | 25% chance to double ore drops | Ores auto-smelt when mined | Haste while mining | Unlocks **Netherite** |
-| **Woodcutting** | 25% chance to double log drops | Fell whole trees with an axe | +20% axe attack speed while one's held | Unlocks **Shulker Boxes** |
-| **Farming** | +25% hunger/saturation from farmed food | Crops auto-replant (doesn't apply to Pumpkin/Melon) | Guaranteed +1 crop yield | Unlocks **Enchanted Golden Apples** |
-| **Combat** | 30% less knockback taken | Heal on kill (lifesteal) | 20% less damage taken | Unlocks the **Totem of Undying** |
-| **Enchanting** | -1 level cost to enchant | -2 level cost to enchant | Anvil cost reduced by 40% (repairing and combining) | Unlocks **Mending** |
-| **Fishing** | 25% chance of a bonus catch | Junk catches re-rolled toward fish/treasure | Faster bite time, plus a rare chance at a [legendary catch](#legendary-catches) | Unlocks the **Trident** |
-| **Alchemy** | -1 brewing-stand fuel cost | Splash potions +15% effect duration | -40% brewing time | Unlocks **Strength II Potions** |
+## Perks by level
+
+A few perks are described as "a taste of" a later one — that earlier value is replaced, not added
+to, once you reach the level it's building toward. Anything else stacks or stands on its own.
+
+**Mining** → unlocks **Netherite** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 10% chance to double ore drops (taste of Lv 3) |
+| 3 | 25% chance to double ore drops |
+| 4 | -15% pickaxe durability loss |
+| 5 | +1 bonus XP orb per ore |
+| 6 | Ores auto-smelt when mined |
+| 7 | -50% fall damage while Mining is active |
+| 8 | 10% chance a placed torch isn't consumed |
+| 9 | Haste while mining |
+
+**Woodcutting** → unlocks **Shulker Boxes** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 10% chance to double log drops (taste of Lv 3) |
+| 3 | 25% chance to double log drops |
+| 4 | -15% axe durability loss |
+| 5 | 10% chance a chopped log flies straight to your inventory |
+| 6 | Fell whole trees with an axe |
+| 7 | +10% axe attack speed while one's held (taste of Lv 9) |
+| 8 | 5% chance of one extra log, independent of Lv 3's roll |
+| 9 | +20% axe attack speed while one's held |
+
+**Farming** → unlocks **Enchanted Golden Apples** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 5% chance of a bonus crop yield (taste of Lv 9) |
+| 3 | +25% hunger/saturation from farmed food |
+| 4 | 15% chance bonemeal isn't consumed |
+| 5 | +1 bonus XP orb per harvest |
+| 6 | Crops auto-replant (doesn't apply to Pumpkin/Melon) |
+| 7 | 10% chance a hand-replanted crop instantly grows a stage |
+| 8 | 5% chance eating a farmed food clears a negative effect |
+| 9 | Guaranteed +1 crop yield |
+
+**Combat** → unlocks the **Totem of Undying** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 5% less knockback taken (taste of Lv 3) |
+| 3 | 30% less knockback taken |
+| 4 | 5% chance to fully negate knockback |
+| 5 | -50% shield durability loss while blocking |
+| 6 | Heal on kill (lifesteal) |
+| 7 | More healing on kill (replaces Lv 6's amount) |
+| 8 | 5% chance to fully negate a melee hit |
+| 9 | 20% less damage taken |
+
+**Enchanting** → unlocks **Mending** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 10% chance to refund the lapis spent |
+| 3 | -1 level cost to enchant |
+| 4 | 5% chance of double Enchanting XP |
+| 5 | Anvil use now grants Enchanting XP (previously none) |
+| 6 | -2 level cost to enchant |
+| 7 | -10% anvil level cost (taste of Lv 9) |
+| 8 | 5% chance of 1 extra level off an anvil operation |
+| 9 | Anvil cost reduced by 40% (repairing and combining) |
+
+**Fishing** → unlocks the **Trident** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 5% chance of a bonus catch (taste of Lv 3) |
+| 3 | 25% chance of a bonus catch |
+| 4 | -10% bite time (taste of Lv 9) |
+| 5 | +1 bonus XP orb per catch |
+| 6 | Junk catches re-rolled toward fish/treasure |
+| 7 | 5% chance the rod takes no durability damage |
+| 8 | +10% extra bonus-catch chance while it's raining |
+| 9 | Faster bite time, plus a rare chance at a [legendary catch](#legendary-catches) |
+
+**Alchemy** → unlocks **Strength II Potions** at mastery
+
+| Lv | Perk |
+|---|---|
+| 2 | 5% chance a brew yields an extra potion |
+| 3 | -1 brewing-stand fuel cost |
+| 4 | -10% brewing time (taste of Lv 9) |
+| 5 | +5% duration on potions you drink directly |
+| 6 | Splash potions +15% effect duration |
+| 7 | Splash potions +5% more (stacks with Lv 6) |
+| 8 | 5% chance a drunk potion isn't consumed |
+| 9 | -40% brewing time |
 
 ## Luxury gating: why can't I get that item?
 
@@ -133,17 +220,19 @@ unaffected. It exists so two players can't just repeatedly kill each other to fa
 
 ### Legendary catches
 
-Once Fishing is active at **level 9**, every catch has a small chance (1%) to instead be one of two
-curated legendary weapons — a separate, repeatable reward from the one-time Trident unlock at
+Once Fishing is active at **level 9**, every catch has a small chance (1%) to instead be one of
+three curated legendary weapons — a separate, repeatable reward from the one-time Trident unlock at
 mastery:
 
 - **Ocean's Wrath** (netherite sword) — Sharpness VIII, Fire Aspect III
 - **Storm Breaker** (netherite axe) — Sharpness VIII, Sweeping Edge III, Knockback III
+- **Athena's Spear** (netherite spear) — Sharpness VIII, Looting IV
 
 Each pushes at least one enchant past its normal vanilla cap (Sharpness maxes at V, Fire Aspect and
-Knockback at II) — unmistakable at a glance. The axe's Sweeping Edge is a second tell, since vanilla
-doesn't allow that enchant on an axe at all. None of this is producible through any normal
-enchanting table or anvil path.
+Knockback at II, Looting at III) — unmistakable at a glance. The axe's Sweeping Edge is a second
+tell, since vanilla doesn't allow that enchant on an axe at all. None of this is producible through
+any normal enchanting table or anvil path. The spear still gets a spear's usual Lunge dash — that's
+not a legendary-only bonus, every spear can do it.
 Being netherite would normally require mastering Mining first, but a legendary catch bypasses that
 gate entirely — it's exempt regardless of your Mining level, the same way a live gift from a master
 is. The catch is a genuine power spike, but a temporary one: it comes with only **10% of its normal
@@ -159,10 +248,10 @@ route to XP here.)
 | Tier-2 potion (e.g. Strength II, Poison II) | 5 |
 | Any other real potion | 2 |
 
-In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar) and its
-milestones — unlocked perks show in the skill's colour, locked ones are white panes with the level
-they require. Your two active skills are marked; the rest show as inactive. With seven skills to
-show, the panel is two pages — use the Next/Back arrows at the bottom.
+In the `/skills` GUI, each skill has its own row: a coloured summary (level + XP bar), two "Perks"
+panes listing levels 2-5 and 6-9 (hover to see which ones you've unlocked), and mastery on the end.
+Your two active skills are marked; the rest show as inactive. With seven skills to show, the panel
+is two pages — use the Next/Back arrows at the bottom.
 
 ## It's a slow grind, on purpose
 
