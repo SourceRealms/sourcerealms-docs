@@ -2,10 +2,10 @@
 
 **Nation Menu → Library** (Java) is your nation's records and mail hub:
 
-- **Documents** — a browsable list of your signed treaties, pacts, enemy markers, and pending
+- **Documents** - a browsable list of your signed treaties, pacts, enemy markers, and pending
   proposals. Click one to accept/deny/cancel/break it.
-- **Write a Letter** — pick a nation and compose a written message. Requires **Manage Diplomacy**.
-- **Received Letters** (the chest, bottom-right) — your letterbox. **Left-click** a letter to read
+- **Write a Letter** - pick a nation and compose a written message. Requires **Manage Diplomacy**.
+- **Received Letters** (the chest, bottom-right) - your letterbox. **Left-click** a letter to read
   it in a book view; **shift-click** to discard it (needs *Manage Diplomacy*). Any member can read.
 
 ## Anti-spam limits *(defaults)*

@@ -1,7 +1,7 @@
 # Server Rules
 
 Source Realms is a brand-new server, actively being built and balanced. Rules, mechanics, and
-features may change as we learn what works. If something feels unfair or broken, report it —
+features may change as we learn what works. If something feels unfair or broken, report it -
 don't exploit it.
 
 ## 1. No cheating
@@ -12,7 +12,7 @@ without cave/ore reveal, zoom, etc.) are fine.
 
 ## 2. No exploiting bugs or glitches
 
-If you find a bug — a claim protection gap, an economy dupe, a way to break a game mechanic —
+If you find a bug - a claim protection gap, an economy dupe, a way to break a game mechanic -
 report it to staff. Using it for advantage (before or after reporting) is a bannable offense. This
 is a new server built by one developer; bugs will happen. How you respond to finding one is what
 matters.
@@ -20,13 +20,13 @@ matters.
 ## 3. Chat and community conduct
 
 Same standard as Discord: be respectful, no harassment or hate speech, no spam/advertising, keep it
-in English in public channels. Staff decisions are final — if you disagree, raise it privately
+in English in public channels. Staff decisions are final - if you disagree, raise it privately
 rather than arguing in chat.
 
 ## 4. Staff instructions
 
 If staff asks you to stop an action or steps in to resolve a dispute, comply first and raise
-concerns after. Staff are also still learning this server alongside everyone else — good faith
+concerns after. Staff are also still learning this server alongside everyone else - good faith
 goes both ways.
 
 ## 5. No lag machines
@@ -42,7 +42,7 @@ inappropriate content.
 
 ## 7. Impersonating staff
 
-Don't pretend to be a moderator or admin — in chat, DMs, or in-game — to mislead other players.
+Don't pretend to be a moderator or admin - in chat, DMs, or in-game - to mislead other players.
 
 ## 8. No ban evasion
 
@@ -55,7 +55,7 @@ Don't promote other Minecraft servers in chat or DMs, solicited or not.
 
 ## 10. Play in good faith
 
-Betrayal, backstabbing, and political scheming are part of the game — a plot twist that serves a
+Betrayal, backstabbing, and political scheming are part of the game - a plot twist that serves a
 story or a power play is always fair game. What's not okay is joining in purely to sabotage other
 players' fun with no goal beyond ruining it for them: joining a nation just to loot it and vanish,
 or tanking someone's roleplay or plans for no reason other than that you can. If in doubt, ask

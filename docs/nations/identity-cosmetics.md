@@ -1,7 +1,7 @@
 # Identity & Cosmetics
 
 Make your nation yours. Most of these live under **Nation Menu → Nation Management** (Java), or as
-commands — all require the **Edit Labels** permission unless noted:
+commands - all require the **Edit Labels** permission unless noted:
 
 | Command | What it does |
 |---|---|
@@ -22,11 +22,11 @@ colour) and their role + nation below it. This works identically on Java and Bed
 
 Give your nation a heraldic banner:
 
-- **`/nation banner set`** — captures the banner you're holding as your nation's design.
-- **`/nation banner clear`** — remove it.
-- **`/nation banner`** — get a copy of your nation's banner.
+- **`/nation banner set`** - captures the banner you're holding as your nation's design.
+- **`/nation banner clear`** - remove it.
+- **`/nation banner`** - get a copy of your nation's banner.
 - **In the GUI**: on the Nation Menu, hold a banner and click your nation's banner icon (or
-  shift-click a banner in your inventory) to set the design. It copies the design — your held
+  shift-click a banner in your inventory) to set the design. It copies the design - your held
   banner isn't consumed.
 
 Any nation member who **crafts a plain shield** automatically gets it stamped with the nation's

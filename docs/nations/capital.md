@@ -1,6 +1,6 @@
 # Your Capital
 
-Your capital is your nation's home point — a named location members can teleport to.
+Your capital is your nation's home point - a named location members can teleport to.
 
 | Command | What it does |
 |---|---|

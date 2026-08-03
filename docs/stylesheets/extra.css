@@ -1,4 +1,4 @@
-/* Custom palette overrides — richer, more saturated purple + a near-black dark canvas.
+/* Custom palette overrides - richer, more saturated purple + a near-black dark canvas.
    The named Material presets ("deep purple"/"purple") read as too light/pastel, so we set the
    underlying CSS variables directly instead of relying on the presets. */
 
@@ -12,13 +12,13 @@
   /* Slightly deepen the code-block background to match the darker canvas. */
   --md-code-bg-color: #120c1e;
 
-  /* Primary: header bar, nav highlights — a deep, saturated purple (not pastel). */
+  /* Primary: header bar, nav highlights - a deep, saturated purple (not pastel). */
   --md-primary-fg-color: #4C0F91;
   --md-primary-fg-color--light: #6A17C7;
   --md-primary-fg-color--dark: #32095F;
   --md-primary-bg-color: #FFFFFF;
 
-  /* Accent: links, search highlights, hover states — vivid, not muted. */
+  /* Accent: links, search highlights, hover states - vivid, not muted. */
   --md-accent-fg-color: #B341FF;
   --md-accent-fg-color--transparent: #B341FF1A;
   --md-accent-bg-color: #FFFFFF;
@@ -26,7 +26,7 @@
   --md-typeset-a-color: #C061FF;
 }
 
-/* No logo/icon in the header at all — title text only. Without an explicit theme.logo/icon.logo,
+/* No logo/icon in the header at all - title text only. Without an explicit theme.logo/icon.logo,
    Material falls back to a generic default glyph, so it has to be hidden explicitly. */
 .md-header__button.md-logo {
   display: none;

@@ -1,6 +1,6 @@
 # Roles & Permissions
 
-Nations are run through **roles**. A role is a named rank (e.g. *Leader*, *Officer*, *Member*) that
+Nations are run through **roles**. A role is a named rank (e.g. *Leader*, *Trusted*, *Member*) that
 carries a set of **permissions**. Members hold a role; changing a role's permissions changes it for
 **everyone** who holds that role.
 
@@ -10,7 +10,7 @@ Open **Nation Menu → Nation Management → Members & Permissions** (Java), or 
 |---|---|
 | `/nation roles` | List your nation's roles and how many members each has. |
 | `/nation role create <name>` | Make a new role. |
-| `/nation role delete <name>` | Delete a role — it must have no members first. |
+| `/nation role delete <name>` | Delete a role - it must have no members first. |
 | `/nation role set <player> <role>` | Assign a member to a role. |
 | `/nation role title <role> <new title>` | Rename a role's display title (shown on nameplates). |
 | `/nation perms ...` | Inspect and toggle a role's permissions (or use the GUI's green/red toggles). |
@@ -33,7 +33,7 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 | **Manage Diplomacy** | Treaties, enemies, neutrality toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
 | **Bank Deposit** | Deposit to the nation bank |
 | **Bank Withdraw** | Withdraw from the bank, send foreign aid, and collect received aid |
-| **Manage Taxes** | Set the daily member tax rate and manage exemptions — see [Tax & Upkeep](../economy/tax-upkeep.md) |
+| **Manage Taxes** | Set the daily member tax rate and manage exemptions - see [Tax & Upkeep](../economy/tax-upkeep.md) |
 | **Edit Labels** | Colour, description, government, ideology, capital location, and banner |
 | **Edit Banner** | Edit the nation banner |
 | **Rename Nation** | Rename the nation and change its tag |
@@ -42,13 +42,18 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 
 ## Default roles
 
-- **Member** *(default)* can **build, break, and open containers** inside claims, and **deposit**
-  to the bank — but **cannot claim/unclaim land** by default.
-- **Officer** *(default)* adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**,
-  and **Send Announcements**.
-- The **Leader** always has every permission, regardless of role edits.
+Every nation starts with three roles. All three (including their permissions and display titles)
+can be freely edited, renamed, or reassigned like any other role - these are just sensible starting
+points, not fixed tiers.
 
-!!! info "Claiming is officer-level by default"
+- **Member** can **build, break, and open containers** inside claims, and **deposit** to the bank -
+  but **cannot claim/unclaim land** by default. New invitees land here.
+- **Trusted** adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**, and **Send
+  Announcements** on top of everything Member has.
+- The **Leader** always has every permission, regardless of role edits, and can't be reassigned or
+  kicked.
+
+!!! info "Claiming is Trusted-level by default"
     A plain Member can't claim or unclaim land unless their role is specifically granted the
     **Claim Land** / **Unclaim Land** permissions. If you want all members to be able to claim,
     grant those two permissions to the Member role.

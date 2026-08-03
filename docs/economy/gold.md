@@ -34,8 +34,8 @@ most compact mix of blocks and ingots (overflow drops at your feet if your inven
 Because gold is the whole server's currency, it's deliberately kept **scarce and hard to farm**.
 The only intended sources are:
 
-- **Mining** — digging up gold ore yourself.
-- **Natural chest loot** — dungeons, ruins, and other generated structures.
+- **Mining** - digging up gold ore yourself.
+- **Natural chest loot** - dungeons, ruins, and other generated structures.
 
 Gold is **never** obtainable from mob drops, villager or wandering-trader trades, or piglin
-bartering — see [World Rules](../world-rules.md) for the full reasoning.
+bartering - see [World Rules](../world-rules.md) for the full reasoning.

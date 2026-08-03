@@ -1,6 +1,6 @@
 # Permissions Reference
 
-Permissions live on **roles**, not individual members — see
+Permissions live on **roles**, not individual members - see
 [Roles & Permissions](../nations/roles-permissions.md) for how to grant them.
 
 | Permission | Grants |
@@ -26,11 +26,11 @@ Permissions live on **roles**, not individual members — see
 ## Default roles
 
 - **Member** *(default)* can **build, break, and open containers** inside claims, and **deposit**
-  to the bank — but **cannot claim/unclaim land**.
-- **Officer** *(default)* adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**,
+  to the bank - but **cannot claim/unclaim land**.
+- **Trusted** adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**,
   and **Send Announcements**.
 - The **Leader** always has every permission.
 
 !!! info
-    Claiming and unclaiming land is an **officer-level** ability by default — a plain Member can't
+    Claiming and unclaiming land is a **Trusted-level** ability by default - a plain Member can't
     claim unless their role is granted **Claim Land** / **Unclaim Land**.

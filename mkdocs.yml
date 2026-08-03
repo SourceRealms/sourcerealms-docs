@@ -1,6 +1,6 @@
 site_name: Source Realms Docs
 site_url: https://docs.source-realms.com/
-site_description: Player wiki for the Source Realms Nations SMP — nations, claims, diplomacy, war, skills, and the gold economy.
+site_description: Player wiki for the Source Realms Nations SMP - nations, claims, diplomacy, war, skills, and the gold economy.
 
 theme:
   name: material

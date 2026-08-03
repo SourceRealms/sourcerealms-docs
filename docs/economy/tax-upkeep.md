@@ -5,11 +5,11 @@ and **upkeep** is charged for the land you hold. Both run on a single daily cycl
 
 ## Nation tax
 
-A nation can tax its members — a set percentage of each member's gold balance, taken once a day and
+A nation can tax its members - a set percentage of each member's gold balance, taken once a day and
 paid straight into the [nation bank](bank.md). There's no tax by default; leadership chooses whether
 to turn it on.
 
-- Set it with **Nation Menu → Economy → Taxes** (Java) or `/nation tax set <percent>` — anywhere from
+- Set it with **Nation Menu → Economy → Taxes** (Java) or `/nation tax set <percent>` - anywhere from
   **1% to 100%**. Setting it to **0%** turns tax off.
 - It applies to every member's gold balance each day. If you have no gold, you're not taxed.
 - The **leader is exempt** by default, and specific members can be exempted too.
@@ -22,24 +22,24 @@ to turn it on.
 | `/nation tax exempt <player>` | Stop taxing a member. Needs *Manage Taxes*. |
 | `/nation tax unexempt <player>` | Start taxing a member again. Needs *Manage Taxes*. |
 
-On Java you can manage exemptions visually from **Economy → Taxes → Exemptions** — click a member to
+On Java you can manage exemptions visually from **Economy → Taxes → Exemptions** - click a member to
 toggle them.
 
 ## Nation upkeep
 
 Belonging to a nation costs money. Every day, your nation pays **upkeep** from its bank based on how
-many members it has — **20 gold per member** *(default)*. You can see your current daily upkeep in
+many members it has - **20 gold per member** *(default)*. You can see your current daily upkeep in
 the lore of the gold icon on the **Economy** menu.
 
 - It's paid automatically from the nation bank each day.
-- If the bank **can't cover it**, the leader is warned — right away if online, otherwise the next time
+- If the bank **can't cover it**, the leader is warned - right away if online, otherwise the next time
   they log in. After **3 days in a row** *(default)* of unpaid upkeep, the nation is **disbanded**.
-- Paying resets the countdown. Missed days don't stack up as debt — you just need enough in the bank
+- Paying resets the countdown. Missed days don't stack up as debt - you just need enough in the bank
   on the day to clear the warning.
 
 ### Behind on upkeep? Pay it instantly
 
-If your nation misses its upkeep, you can settle it on the spot from **your own gold** — no need to
+If your nation misses its upkeep, you can settle it on the spot from **your own gold** - no need to
 deposit into the bank first:
 
 - Click **[Pay Now]** on the upkeep warning (it's on the login reminder too), **or**
@@ -50,5 +50,5 @@ Either one takes that day's upkeep straight from your gold and clears the warnin
 Paying needs the *Bank Deposit* permission.
 
 Keep the bank topped up (through tax, deposits, [foreign aid](aid.md), or
-[war reparations](../war/overview.md#7-the-spoils-reparations)) so upkeep never catches you short —
+[war reparations](../war/overview.md#7-the-spoils-reparations)) so upkeep never catches you short -
 especially as your nation grows.
