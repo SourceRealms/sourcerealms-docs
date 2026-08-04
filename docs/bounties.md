@@ -32,6 +32,17 @@ e.g. `/bounty accept Steve`.
 - **Don't respond** within a few days and the offer quietly expires - the requester is refunded
   either way.
 
+## The locator compass
+
+The moment you accept a contract, you're handed a compass named **Locator: `<target>`**, with its
+lore showing your live distance to them in blocks. It updates every second while you're both
+online; if they're offline or in a different world, it tells you that instead.
+
+It's a tracking tool for the contract, not a real item - it can be moved around your inventory
+freely, but it can't be dropped, stashed in a chest or any other container, fed into crafting, or
+nested inside a bundle/shulker box. It survives death rather than dropping, and disappears
+automatically the moment the contract resolves - killed, or the window running out.
+
 ## Getting paid
 
 Land the kill (PvP - melee or a projectile both count) within your 48-hour window and the payout

@@ -46,20 +46,20 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 | 5 | 10% chance a chopped log flies straight to your inventory |
 | 6 | Fell whole trees with an axe |
 | 7 | +10% axe attack speed while one's held (taste of Lv 9) |
-| 8 | 5% chance of one extra log, independent of Lv 3's roll |
+| 8 | 10% chance of one extra log, independent of Lv 3's roll |
 | 9 | +20% axe attack speed while one's held |
 
 **Farming** → unlocks **Enchanted Golden Apples** at mastery
 
 | Lv | Perk |
 |---|---|
-| 2 | 5% chance of a bonus crop yield (taste of Lv 9) |
+| 2 | 10% chance of a bonus crop yield (taste of Lv 9) |
 | 3 | +25% hunger/saturation from farmed food |
 | 4 | 15% chance bonemeal isn't consumed |
 | 5 | +1 bonus XP orb per harvest |
 | 6 | Crops auto-replant (doesn't apply to Pumpkin/Melon) |
 | 7 | 10% chance a hand-replanted crop instantly grows a stage |
-| 8 | 5% chance eating a farmed food clears a negative effect |
+| 8 | 10% chance eating a farmed food clears a negative effect |
 | 9 | Guaranteed +1 crop yield |
 
 **Combat** → unlocks the **Totem of Undying** at mastery
@@ -68,11 +68,11 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 |---|---|
 | 2 | 5% less knockback taken (taste of Lv 3) |
 | 3 | 30% less knockback taken |
-| 4 | 5% chance to fully negate knockback |
+| 4 | 10% chance to fully negate knockback |
 | 5 | 50% chance blocking costs no shield durability |
 | 6 | Heal 1 heart on each kill (lifesteal) |
 | 7 | Heal 1.5 hearts on each kill (replaces Lv 6's amount) |
-| 8 | 5% chance to fully negate a melee hit |
+| 8 | 10% chance to fully negate a melee hit |
 | 9 | 20% less damage taken |
 
 **Enchanting** → unlocks **Mending** at mastery
@@ -81,23 +81,23 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 |---|---|
 | 2 | 10% chance to refund the lapis spent |
 | 3 | -1 level cost to enchant |
-| 4 | 5% chance of double Enchanting XP |
+| 4 | 10% chance of double Enchanting XP |
 | 5 | Anvil use now grants Enchanting XP (previously none) |
 | 6 | -2 level cost to enchant |
 | 7 | -10% anvil level cost (taste of Lv 9) |
-| 8 | 5% chance of 1 extra level off an anvil operation |
+| 8 | 10% chance of 1 extra level off an anvil operation |
 | 9 | Anvil cost reduced by 40% (repairing and combining) |
 
 **Fishing** → unlocks the **Trident** at mastery
 
 | Lv | Perk |
 |---|---|
-| 2 | 5% chance of a bonus catch (taste of Lv 3) |
+| 2 | 10% chance of a bonus catch (taste of Lv 3) |
 | 3 | 25% chance of a bonus catch |
 | 4 | -10% bite time (taste of Lv 9) |
 | 5 | +1 bonus XP orb per catch |
 | 6 | Junk catches re-rolled toward fish/treasure |
-| 7 | 5% chance the rod takes no durability damage |
+| 7 | 10% chance the rod takes no durability damage |
 | 8 | +10% extra bonus-catch chance while it's raining |
 | 9 | Faster bite time, plus a rare chance at a [legendary catch](#legendary-catches) |
 
@@ -105,13 +105,13 @@ to, once you reach the level it's building toward. Anything else stacks or stand
 
 | Lv | Perk |
 |---|---|
-| 2 | 5% chance a brew yields an extra potion |
+| 2 | 10% chance a brew yields an extra potion |
 | 3 | -1 brewing-stand fuel cost |
 | 4 | -10% brewing time (taste of Lv 9) |
 | 5 | +5% duration on potions you drink directly |
 | 6 | Splash potions +15% effect duration |
 | 7 | Splash potions +5% more (stacks with Lv 6) |
-| 8 | 5% chance a drunk potion isn't consumed |
+| 8 | 10% chance a drunk potion isn't consumed |
 | 9 | -40% brewing time |
 
 ## Luxury gating: why can't I get that item?
@@ -259,6 +259,7 @@ Skills are meant to be a **long-term** goal, not something maxed in a day or two
 The XP curve gets steeper every level, and the higher-value actions (rare ores, tough kills,
 expensive enchants) are the ones actually worth pursuing if you want to level efficiently.
 
-On top of that curve, every skill needs **4x** the XP shown in the tables above to actually level
-up, **except Alchemy, which needs 2x**. The numbers in the tables are still the right ones to
-compare actions against each other - they're just not the raw amount that lands on your bar.
+The XP shown in the tables above is exactly what lands on your bar per action - no hidden division.
+What varies is how much a skill needs *per level*: most skills need 4x a shared baseline amount,
+but **Fishing needs half that (2x)** and **Alchemy needs a quarter (1x)** - both deliberately faster
+to level than the rest.
