@@ -34,9 +34,10 @@ e.g. `/bounty accept Steve`.
 
 ## The locator compass
 
-The moment you accept a contract, you're handed a compass named **Locator: `<target>`**, with its
-lore showing your live distance to them in blocks. It updates every second while you're both
-online; if they're offline or in a different world, it tells you that instead.
+The moment you accept a contract, you're handed a compass named **Locator: `<target>`** - its
+needle actually points toward them, and its lore shows your live distance in blocks. Both update
+every second while you're in the same world; if they're offline the lore says so instead, and if
+they're in a different world the needle just holds its last direction until you're back in range.
 
 It's a tracking tool for the contract, not a real item - it can be moved around your inventory
 freely, but it can't be dropped, stashed in a chest or any other container, fed into crafting, or
