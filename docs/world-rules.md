@@ -113,4 +113,4 @@ teleport. A player with no nation can't TPA to anyone, including other nationles
 
 ## Difficulty
 
-The server runs on **Normal** difficulty.
+The server runs on **Hard** difficulty.
