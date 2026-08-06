@@ -50,6 +50,9 @@ clean.
   restart.
 - **Spawn camping:** repeatedly killing freshly spawned players, or trapping players at a server
   spawn or `/sethome` point to farm kills and lock them out of playing, is strictly prohibited.
+- **Cart PvP:** fighting from inside a minecart is strictly prohibited. Minecarts are fine for
+  traps (e.g. luring an enemy into one as part of a base defense) - the line is using one as a
+  combat exploit during an actual fight.
 
 ## 4. Nations, base design & war eligibility
 
