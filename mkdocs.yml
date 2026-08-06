@@ -49,12 +49,12 @@ nav:
       - Web Map: web-map.md
       - Voting: voting.md
   - Nations:
+      - Nation Flags: nations/nation-flags.md
       - Creating & Joining: nations/creating-joining.md
       - Roles & Permissions: nations/roles-permissions.md
       - Claims & Territory: nations/claims-territory.md
       - Capital: nations/capital.md
       - Identity & Cosmetics: nations/identity-cosmetics.md
-      - Nation Flags: nations/nation-flags.md
       - Library & Letters: letters.md
   - Diplomacy & War:
       - Diplomacy: diplomacy.md

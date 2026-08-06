@@ -83,6 +83,8 @@ apply to **everyone**, everywhere on the server.
 - **End crystals** - can't be placed (no crystal PvP).
 - **Elytra** - gliding is disabled; you can't fly.
 - **Tipped arrows** - can't be fired from a bow or crossbow.
+- **Cart PvP** - fighting from inside a minecart is banned. TNT minecarts are still fine to use for
+  traps - it's just for PvP that it's banned.
 
 **Cooldowns & costs:**
 
