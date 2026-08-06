@@ -1,5 +1,10 @@
 # Declaring War
 
+!!! warning "Wars need a real reason"
+    Wars aren't meant to be declared for no reason - "I just want to PvP" isn't good enough on its
+    own. Every war is **admin-gated**: when you declare, you'll be asked for your reasoning, and an
+    admin has final say on whether it's allowed to go ahead. See [step 3 below](#3-admin-review).
+
 War is how territory changes hands. It's a deliberate, scheduled event tied to a fixed weekly
 session - not an instant free-for-all - and it only happens between two **warlike** nations (see
 [Neutrality](neutrality.md) if you're not sure what that means for you).
@@ -44,6 +49,10 @@ displays correctly in your own timezone.
 A declared war doesn't go live immediately - it's marked **pending** until an admin reviews it (via
 an in-game command or a Discord button). This is announced in the server's `#nations-admin` Discord
 channel. You'll see your war listed as *pending admin approval* until then.
+
+As part of that review, an admin will ask you for your **reasoning** for the war - "I want to PvP"
+isn't a valid reason on its own. Come with a real motive (a border dispute, retaliation, a political
+grievance, etc.) - the admin has final say on whether the war is allowed to proceed.
 
 - **If approved**, your war is confirmed for its session slot, and it's publicly announced in the
   `#nations-news` Discord channel with a countdown timestamp. That post is kept **up to date through
