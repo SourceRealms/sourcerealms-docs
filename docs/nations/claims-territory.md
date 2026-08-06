@@ -43,32 +43,32 @@ A few things worth knowing:
 
 ## Rules and limits
 
-Your ruleset depends on whether your nation is **neutral or warlike** - see
-[Neutrality](../war/neutrality.md) for what that status actually means. The two get genuinely
+Your ruleset depends on whether your nation is **SMP or Geopolitical** - see
+[Nation Flags](nation-flags.md) for what that mode actually means. The two get genuinely
 different claim allowances:
 
-| | **Warlike** | **Neutral** |
+| | **Geopolitical** | **SMP** |
 |---|---|---|
 | Base claim capacity | 10 chunks | 25 chunks |
 | Extra claims per member | +8 | +8 |
 | Max separate territory clusters ("colonies") | 3 | 5 |
 
-A neutral nation gets a much larger, more scattered builder-friendly allowance in exchange for
-never being able to fight. A warlike nation gets a tighter, more contested territorial game.
+An SMP nation gets a much larger, more scattered builder-friendly allowance in exchange for
+never being able to fight. A Geopolitical nation gets a tighter, more contested territorial game.
 
 - **Colonies**: a new claimed chunk that doesn't touch your existing territory starts a new
   "colony." Once you hit your colony cap, new claims must connect to territory you already hold.
 - **Minimum distance** *(default: 5 chunks)*: your border must stay at least this many chunks from
-  another nation's, for **both** neutral and warlike nations - this buffer always applies.
+  another nation's, for **both** SMP and Geopolitical nations - this buffer always applies.
 - **Overworld only**: only overworld chunks can be claimed. The Nether can never be claimed and is
   wiped weekly, so don't rely on it for anything permanent; the End is disabled entirely (see
   [World Rules](../world-rules.md)).
 
-!!! note "Re-arming has a catch"
-    If your neutral nation has claimed more land than the **warlike** cap allows, you can't just
-    flip `/nation neutral off` - you'll need to unclaim down to the warlike limit first. This stops
-    a nation hoarding a huge neutral-sized territory and then instantly becoming un-conquerable
-    warlike land.
+!!! note "Switching to Geopolitical has a catch"
+    If your SMP nation has claimed more land than the **Geopolitical** cap allows, you can't just
+    run `/nation mode geopolitical` - you'll need to unclaim down to the geopolitical limit first.
+    This stops a nation hoarding a huge SMP-sized territory and then instantly becoming
+    un-conquerable geopolitical land.
 
 ## What claims protect *(all default-on, admin-toggleable)*
 

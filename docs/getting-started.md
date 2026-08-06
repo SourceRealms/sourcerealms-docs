@@ -31,13 +31,14 @@ Leaderboards, RTP, Voting, and the Server Store, all in one menu.
      - Founding: `/nation create <name>` - see [Creating & Joining](nations/creating-joining.md).
      - Joining: ask an existing nation's leader/trusted for `/nation invite <you>`, then run
        `/nation accept`.
-2. **New nations start warlike by default** - you can declare and be drawn into war right away. If
-   you just want to build peacefully, opt in to neutral status with `/nation neutral on`: you can't
-   be attacked and can't attack, so you can ignore war entirely. See [Neutrality](war/neutrality.md).
+2. **New nations start Geopolitical by default** - you can declare and be drawn into war right
+   away. If you just want to build peacefully, opt in to SMP mode with `/nation mode smp`: you
+   can't be attacked and can't attack, so you can ignore war entirely. See
+   [Nation Flags](nations/nation-flags.md).
 3. **Claim some land**: stand in a chunk and run `/nation claim` (needs the *Claim Land*
    permission - Trusted has it by default). See [Claims & Territory](nations/claims-territory.md).
 4. **Set your capital**: `/nation capital set <name>` gives your nation a named home point everyone
    can teleport back to with `/nation capital`.
 
 From there, `/nation info` always shows your nation's current state - description, government,
-ideology, capital, bank, claims, members, and whether you're neutral or warlike.
+ideology, capital, bank, claims, members, and whether you're SMP or Geopolitical.

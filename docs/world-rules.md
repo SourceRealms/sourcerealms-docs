@@ -1,7 +1,7 @@
 # World Rules
 
 A few server-wide rules sit outside the nation/claim/war systems. These apply to everyone,
-regardless of nation or neutrality status.
+regardless of nation or mode.
 
 ## The End is disabled
 

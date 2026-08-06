@@ -30,7 +30,7 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 | **Invite Players** | Invite players to the nation |
 | **Kick Players** | Remove members |
 | **Manage Roles** | Create, edit, and delete roles, and assign them to members |
-| **Manage Diplomacy** | Treaties, enemies, neutrality toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
+| **Manage Diplomacy** | Treaties, enemies, nation mode toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
 | **Bank Deposit** | Deposit to the nation bank |
 | **Bank Withdraw** | Withdraw from the bank, send foreign aid, and collect received aid |
 | **Manage Taxes** | Set the daily member tax rate and manage exemptions - see [Tax & Upkeep](../economy/tax-upkeep.md) |

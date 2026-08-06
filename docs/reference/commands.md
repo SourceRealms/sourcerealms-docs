@@ -56,12 +56,12 @@
 | `/nc <message>` | Message your nation privately |
 | `/ac <message>` | Message your nation + allies privately |
 
-## Neutrality & War
+## Nation Mode & War
 
 | Command | Description |
 |---|---|
-| `/nation neutral` | Show your nation's stance and cooldown status |
-| `/nation neutral on\|off` | Become neutral (peaceful) or warlike |
+| `/nation mode` | Show your nation's mode and cooldown status |
+| `/nation mode smp\|geopolitical` | Become SMP (peaceful) or Geopolitical |
 | `/nation war declare <nation>` | Declare war (contest a territory) |
 | `/nation war cancel <nation>` | Call off a war before the battle starts (attacker only) |
 | `/nation war reinforce <ally>` | Answer an ally's call to arms |

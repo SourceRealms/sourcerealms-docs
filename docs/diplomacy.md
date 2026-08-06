@@ -15,7 +15,7 @@ relation at a time.
 | **Enemy** | A public hostile marker, declared unilaterally. | No | Clear it any time with `treaty break` - no cooldown. |
 
 Marking someone an **Enemy** doesn't affect war rules at all (it's purely a public "we don't like
-them" marker) - war is still gated entirely by neutrality, treaties, and the session schedule. See
+them" marker) - war is still gated entirely by nation mode, treaties, and the session schedule. See
 [Declaring War](war/overview.md).
 
 ## Making and managing treaties

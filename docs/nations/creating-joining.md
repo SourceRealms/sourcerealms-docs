@@ -10,8 +10,8 @@ Your nation starts with you as its **leader**, an auto-generated **tag** (a shor
 brackets, like `[TEST]`), and a default set of roles (Leader + Trusted + Member). You can change the
 tag later with `/nation tag <tag>` (2–5 characters).
 
-New nations start **warlike** by default - see [Neutrality](../war/neutrality.md) if you'd rather
-opt into peaceful, neutral status instead.
+New nations start in **Geopolitical mode** by default - see [Nation Flags](nation-flags.md) if
+you'd rather opt into peaceful SMP mode instead.
 
 ## Invite and join
 
@@ -39,7 +39,7 @@ opt into peaceful, neutral status instead.
 ## Viewing nations
 
 - **`/nation info [name]`** - details of your nation (or another's): description, government,
-  ideology, **neutral/warlike status**, capital, bank balance, claims, and members.
+  ideology, **SMP/Geopolitical mode**, capital, bank balance, claims, and members.
 - **`/nation list [page]`** - every nation on the server.
 
 ## Nation & ally chat
