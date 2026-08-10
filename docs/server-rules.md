@@ -4,6 +4,13 @@ Source Realms is a brand-new server, actively being built and balanced. Rules, m
 features may change as we learn what works. If something feels unfair or broken, report it -
 don't exploit it.
 
+!!! danger "DON'T RUIN THE LORE/ROLEPLAY"
+    Don't leak, expose, or repeat things said in private to another nation with the intent of
+    ruining someone's experience, or "just for the sake of it." This is about **intent**, not
+    information - exposing a secret, betraying a confidence, or revealing information is completely
+    fine, even encouraged, when it drives a story, a war, or a betrayal forward. It should always
+    add to the lore, never just tear it down for no reason.
+
 ## 1. Fair play & allowed modifications
 
 Hacked clients, exploits, and unfair client modifications are strictly prohibited.
