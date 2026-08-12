@@ -166,21 +166,21 @@ below is a no-op while a skill is inactive.
 
 | Block | XP |
 |---|---|
-| Ancient Debris | 15 |
-| Diamond Ore, Emerald Ore | 8 |
-| Iron, Gold, Nether Gold, Redstone, Lapis Ore | 4 |
-| Coal, Copper, Nether Quartz Ore | 3 |
-| Stone, Deepslate, Netherrack, Granite/Diorite/Andesite, Tuff, Cobblestone, Blackstone, End Stone, Basalt, Calcite | 0.5 |
+| Ancient Debris | 30 |
+| Diamond Ore, Emerald Ore | 16 |
+| Iron, Gold, Nether Gold, Redstone, Lapis Ore | 8 |
+| Coal, Copper, Nether Quartz Ore | 6 |
+| Stone, Deepslate, Netherrack, Granite/Diorite/Andesite, Tuff, Cobblestone, Blackstone, End Stone, Basalt, Calcite | 1 |
 
 **Woodcutting** - breaking naturally-generated logs. Placed logs give nothing.
 
-- Any log: **3 XP** per block (including each extra log felled by the Tree Feller perk).
+- Any log: **6 XP** per block (including each extra log felled by the Tree Feller perk).
 
 **Farming** - harvesting crops.
 
-- Wheat, Carrots, Potatoes, Beetroot, Nether Wart, Cocoa (must be **fully grown**): **3 XP**
-- Pumpkin, Melon: **2 XP**
-- Sugar Cane: **2 XP** (cane you planted yourself gives nothing - no wait time otherwise, unlike
+- Wheat, Carrots, Potatoes, Beetroot, Nether Wart, Cocoa (must be **fully grown**): **6 XP**
+- Pumpkin, Melon: **4 XP**
+- Sugar Cane: **4 XP** (cane you planted yourself gives nothing - no wait time otherwise, unlike
   other crops)
 
 Cocoa is harvested the same way as wheat/carrots - break the pod, then replant beans on the log -
@@ -195,11 +195,11 @@ which is disabled server-wide, see [World Rules](world-rules.md).)
 
 | Kill | XP |
 |---|---|
-| Player (PvP) | 15 |
-| Wither | 100 |
-| Warden, Elder Guardian, Ravager | 20 |
-| Blaze, Witch, Enderman, Piglin Brute, Evoker, Vindicator, Hoglin, Zoglin, Guardian | 6 |
-| Any other hostile mob | 4 |
+| Player (PvP) | 30 |
+| Wither | 200 |
+| Warden, Elder Guardian, Ravager | 40 |
+| Blaze, Witch, Enderman, Piglin Brute, Evoker, Vindicator, Hoglin, Zoglin, Guardian | 12 |
+| Any other hostile mob | 8 |
 | Passive mobs | 0 |
 
 Killing the **same player** more than **3 times within 10 minutes** stops earning Combat XP (and
@@ -207,16 +207,16 @@ lifesteal) for further kills of them specifically - it resets once that long pas
 them again. This only limits repeat kills of one specific person; fighting different opponents is
 unaffected. It exists so two players can't just repeatedly kill each other to farm XP.
 
-**Enchanting** - every enchant you apply at a table gives **4× its displayed level cost** in XP
-(e.g. a cost-30 enchant gives 120 XP).
+**Enchanting** - every enchant you apply at a table gives **8× its displayed level cost** in XP
+(e.g. a cost-30 enchant gives 240 XP).
 
 **Fishing** - landing a catch.
 
 | Catch | XP |
 |---|---|
-| Treasure (bow, enchanted book, name tag, saddle, nautilus shell) | 8 |
-| Fish (cod, salmon, pufferfish, tropical fish) | 3 |
-| Junk (string, bones, leather, sticks, etc.) | 1 |
+| Treasure (bow, enchanted book, name tag, saddle, nautilus shell) | 16 |
+| Fish (cod, salmon, pufferfish, tropical fish) | 6 |
+| Junk (string, bones, leather, sticks, etc.) | 2 |
 
 ### Legendary catches
 
@@ -245,8 +245,8 @@ route to XP here.)
 
 | Potion | XP |
 |---|---|
-| Tier-2 potion (e.g. Strength II, Poison II) | 5 |
-| Any other real potion | 2 |
+| Tier-2 potion (e.g. Strength II, Poison II) | 10 |
+| Any other real potion | 4 |
 
 `/skills` opens a menu with all seven skills laid out in a row - click one to see its full
 breakdown: a summary at the top (level, XP bar, and whether it's one of your two active skills -
