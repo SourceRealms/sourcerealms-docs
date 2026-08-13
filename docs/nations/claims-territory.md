@@ -70,6 +70,38 @@ never being able to fight. A Geopolitical nation gets a tighter, more contested 
     This stops a nation hoarding a huge SMP-sized territory and then instantly becoming
     un-conquerable geopolitical land.
 
+## Claim capacity marketplace
+
+Not every nation actually uses all the claim capacity its member count earns it. Instead of that
+headroom just sitting idle, you can sell it - for gold, to any other nation, no diplomacy or
+negotiation required.
+
+**This trades capacity, not land.** Selling capacity never gives away or moves any of your actual
+claimed chunks - it only adjusts how much *more* either nation can claim going forward.
+
+| Command | What it does |
+|---|---|
+| `/nation claims sell <amount> <price>` | List some of your unused claim capacity for sale at a flat total price. |
+| `/nation claims listings` | Browse every open listing on the server. |
+| `/nation claims buy <id>` | Buy a listing outright - pays in full from your nation bank. |
+| `/nation claims unlist <id>` | Cancel one of your own listings. |
+
+A few things worth knowing:
+
+- You can only sell capacity you're not currently using (`capacity - claimed chunks`). It's set
+  aside the moment you list it, so you can't double-list the same headroom or claim past what
+  you're about to sell.
+- Payment goes bank to bank, same as sending foreign aid.
+- There's no limit today on how much capacity a nation can accumulate by buying.
+- Selling capacity permanently lowers your own cap until you buy some back (from anyone, any time)
+  - it isn't a loan.
+
+!!! note "No trading mid-war"
+    Neither buying nor selling is available while your nation has an unresolved war - same
+    reasoning as the neutral/mode toggle and leadership transfer. This moves gold between nation
+    banks, and a nation about to lose a war (and its reparations) shouldn't be able to use it to
+    move funds out of reach first.
+
 ## What claims protect *(all default-on, admin-toggleable)*
 
 Inside your claims, outsiders can't:
