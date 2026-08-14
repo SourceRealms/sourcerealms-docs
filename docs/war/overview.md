@@ -174,10 +174,13 @@ If the **attacker wins**, they:
 
 - **Capture the contested territory** - those chunks become the attacker's claims.
 - **Seize reparations** *(default 50%)* - that percentage of the defender's **nation bank**, plus
-  the same percentage of every **online** losing member's personal balance, transfers to the
-  winner's bank.
+  the same percentage of every losing member's personal balance (**online or offline**), transfers
+  to the winner's bank.
 
-If the **defender wins**, they keep their land and nothing is transferred.
+If the **defender wins**, they keep their land, and **also** seize reparations from the attacker
+*(default 25%)* - that percentage of the attacker's **nation bank**, plus the same percentage of
+every losing member's personal balance (**online or offline**), transfers to the defender's bank.
+No claims change hands either way when the defender wins - only value.
 
 ## Things that end a war early
 
