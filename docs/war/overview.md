@@ -6,8 +6,7 @@
     admin has final say on whether it's allowed to go ahead. See [step 3 below](#3-admin-review).
 
 War is how territory changes hands. It's a deliberate, scheduled event tied to a fixed weekly
-session - not an instant free-for-all - and it only happens between two **Geopolitical** nations
-(see [Nation Flags](../nations/nation-flags.md) if you're not sure what that means for you).
+session - not an instant free-for-all.
 
 ## 1. Declare - any time
 
@@ -21,7 +20,6 @@ which one to contest (by number).
 
 You can't declare war if:
 
-- Either nation is in **SMP mode**.
 - Your nation is already in an unresolved war (win, lose, or resolve it first).
 - The target nation is already in an unresolved war.
 - You have an active treaty or a recent alliance-break cooldown with them - see

@@ -43,32 +43,16 @@ A few things worth knowing:
 
 ## Rules and limits
 
-Your ruleset depends on whether your nation is **SMP or Geopolitical** - see
-[Nation Flags](nation-flags.md) for what that mode actually means. The two get genuinely
-different claim allowances:
-
-| | **Geopolitical** | **SMP** |
-|---|---|---|
-| Base claim capacity | 10 chunks | 25 chunks |
-| Extra claims per member | +8 | +8 |
-| Max separate territory clusters ("colonies") | 3 | 5 |
-
-An SMP nation gets a much larger, more scattered builder-friendly allowance in exchange for
-never being able to fight. A Geopolitical nation gets a tighter, more contested territorial game.
-
+- **Claim capacity**: 10 chunks base, +8 per member. Need more room than your member count earns
+  you? See the [claim capacity marketplace](#claim-capacity-marketplace) below.
 - **Colonies**: a new claimed chunk that doesn't touch your existing territory starts a new
-  "colony." Once you hit your colony cap, new claims must connect to territory you already hold.
+  "colony," capped at **3** separate colonies. Once you hit the cap, new claims must connect to
+  territory you already hold.
 - **Minimum distance** *(default: 5 chunks)*: your border must stay at least this many chunks from
-  another nation's, for **both** SMP and Geopolitical nations - this buffer always applies.
+  another nation's - this buffer always applies.
 - **Overworld only**: only overworld chunks can be claimed. The Nether can never be claimed and is
   wiped weekly, so don't rely on it for anything permanent; the End is disabled entirely (see
   [World Rules](../world-rules.md)).
-
-!!! note "Switching to Geopolitical has a catch"
-    If your SMP nation has claimed more land than the **Geopolitical** cap allows, you can't just
-    run `/nation mode geopolitical` - you'll need to unclaim down to the geopolitical limit first.
-    This stops a nation hoarding a huge SMP-sized territory and then instantly becoming
-    un-conquerable geopolitical land.
 
 ## Claim capacity marketplace
 
@@ -98,9 +82,9 @@ A few things worth knowing:
 
 !!! note "No trading mid-war"
     Neither buying nor selling is available while your nation has an unresolved war - same
-    reasoning as the neutral/mode toggle and leadership transfer. This moves gold between nation
-    banks, and a nation about to lose a war (and its reparations) shouldn't be able to use it to
-    move funds out of reach first.
+    reasoning as blocking a leadership transfer mid-war. This moves gold between nation banks, and
+    a nation about to lose a war (and its reparations) shouldn't be able to use it to move funds
+    out of reach first.
 
 ## What claims protect *(all default-on, admin-toggleable)*
 

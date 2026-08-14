@@ -6,13 +6,9 @@
 
 ### Why can't I declare war?
 
-Almost always **nation mode** - either your nation or the target nation is in SMP mode (peaceful),
-and SMP-mode nations can neither attack nor be attacked. New nations start **Geopolitical** by
-default; a nation only enters SMP mode if it opts in with `/nation mode smp`. Full details:
-[Nation Flags](nations/nation-flags.md).
-
-It can also be because a session slot is fully booked, you're already in an unresolved war, or you
-have a treaty blocking it - see [Declaring War](war/overview.md).
+Usually one of: the current or next war-session slot is fully booked, your nation (or the target)
+is already in an unresolved war, or you have a treaty blocking it - see
+[Declaring War](war/overview.md).
 
 ### Why don't piglins drop gold?
 
@@ -30,8 +26,8 @@ player who has already mastered Mining. See [Skills & Progression](skills.md).
 ### What is this server about?
 
 Source Realms is a geopolitics SMP: found or join a nation, claim territory, build an economy,
-and either play peacefully (as an **SMP-mode** nation) or compete for land through diplomacy and
-scheduled war (as a **Geopolitical** one). See the [Home page](index.md) for the full pitch.
+and compete for land through diplomacy and scheduled war. See the [Home page](index.md) for the
+full pitch.
 
 ### How do I manage my nation's member permissions?
 
@@ -50,8 +46,8 @@ way.
 ### I can't claim here.
 
 You may be too close to another nation *(default: 5 chunks)*, at your colony cap, over your claim
-capacity (invite more members, or check whether you're SMP vs Geopolitical - they have different
-caps), or in a non-overworld world. See [Claims & Territory](nations/claims-territory.md).
+capacity (invite more members, or sell some via the [claim capacity marketplace](nations/claims-territory.md#claim-capacity-marketplace)),
+or in a non-overworld world. See [Claims & Territory](nations/claims-territory.md).
 
 ### Someone said they invited me but I can't join.
 

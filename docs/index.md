@@ -8,15 +8,9 @@
 territory, build a government, trade and sign treaties with your neighbours - and if diplomacy
 fails, go to war over the land you both want.
 
-The server is built to work for two kinds of players at once:
-
-- **The geopolitics crowd** - walls, alliances, scheduled wars, reparations, a shifting map of
-  who controls what.
-- **The builder/SMP crowd** - an **SMP-mode** nation can never be attacked and never attacks; it
-  just gets on with building, with an even *larger* claim allowance than a geopolitical one. See
-  [Nation Flags](nations/nation-flags.md).
-
-Both playstyles are first-class. Nobody is forced into a war they didn't choose.
+Walls, alliances, scheduled wars, reparations - a shifting map of who controls what, all built
+around scheduled war sessions rather than random ambushes, so a fight is something you can prepare
+for, not something sprung on you.
 
 We encourage using **voice chat and roleplay** where you can - nations, diplomacy, and wars are
 just more fun when you're actually talking to your allies and rivals in character.
@@ -32,9 +26,7 @@ just more fun when you're actually talking to your allies and rivals in characte
 1. Read **[Getting Started](getting-started.md)** - the first few things to do after joining.
 2. **[Create or join a nation](nations/creating-joining.md)** - nothing else opens up until you're
    in one.
-3. Decide whether your nation wants to be **[SMP or Geopolitical](nations/nation-flags.md)** - this
-   is the single biggest fork in how the server plays for you.
-4. Skim the **[FAQ](faq.md)** - it answers the questions players ask most.
+3. Skim the **[FAQ](faq.md)** - it answers the questions players ask most.
 
 ## Quick answers
 
@@ -43,7 +35,7 @@ Can't find something? These are the most-asked questions, answered in one line e
 | Question | Short answer |
 |---|---|
 | How do I create a nation? | `/nation create <name>` - see [Creating & Joining](nations/creating-joining.md). |
-| Why can't I declare war? | Your nation (or theirs) is probably in **SMP mode**. See [Nation Flags](nations/nation-flags.md). |
+| Why can't I declare war? | See [Declaring War](war/overview.md) - session slots, unresolved wars, and treaties can all block it. |
 | Why don't piglins/mobs drop gold? | Deliberate - gold only comes from **mining or chest loot**. See [World Rules](world-rules.md). |
 | Why can't I make netherite gear? | It's **locked behind maxing the Mining skill**. See [Skills & Progression](skills.md). |
 | What is this server about? | You're reading it - see above, and the rest of this wiki. |

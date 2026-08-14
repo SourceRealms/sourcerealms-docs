@@ -15,7 +15,6 @@ you in an approved war.
 
 - A **Mutual Defense Pact** ally can join **only when their friend is defending**.
 - A **Mutual Aggression Pact** ally can join **either an attack or a defense**.
-- An **SMP-mode** ally can't be pulled in at all - see [Nation Flags](../nations/nation-flags.md).
 
 !!! info "Glory only - no land or money changes hands for allies"
     Reinforcing allies fight **for glory only**. Captured land and reparations stay strictly
