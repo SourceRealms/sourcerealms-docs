@@ -58,3 +58,26 @@ Bounties are quiet by design:
 - Nobody but the requester and the killer hears about the offer, the accept/decline, or the
   countdown.
 - The **only public moment** is a successful kill - that gets announced for everyone to see.
+
+## Trophy heads
+
+No contract needed - **every** PvP kill drops the victim's head, and anyone who picks it up can
+cash it in.
+
+Right-click the head and it pays out **20% of the victim's current gold balance**, taken at that
+exact moment and credited straight to you - the head disappears, and it's announced to the whole
+server: who claimed it, whose head it was, and for how much. The lore on the head shows a live
+estimate of that payout, refreshing periodically while it sits in your inventory or on the ground -
+but the amount you actually get is always whatever their balance is the instant you click, not
+whatever the lore last said.
+
+That gives you a choice: cash in right away, or hold onto the head and gamble that they'll be
+richer later. Heads never despawn, so there's no rush either way.
+
+A couple of things worth knowing:
+
+- Only a **straight PvP kill** drops a head - killing someone in an active war battle doesn't (that
+  side already pays reparations to the winning nation instead).
+- You **can't loot your own head**, or a **fellow nation member's** - if you or one of your own pick
+  one up, it just can't be redeemed by you.
+- Heads can't be placed as decorative skull blocks - right-click redeems them, that's their only use.
