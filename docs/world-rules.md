@@ -11,9 +11,15 @@ deliberate server-wide decision, not a bug.
 ## Phantoms don't spawn
 
 Phantoms are disabled server-wide - staying up past your bed for however many nights won't summon
-them, and they can't show up any other way either. Phantom Membrane being unobtainable as a result
-means the vanilla Slow Falling potion recipe no longer works; the Shulker Box luxury recipe (see
-[Skills](skills.md)) was also updated to use Purple Dye in place of it.
+them, and they can't show up any other way either.
+
+That makes Phantom Membrane unobtainable, so two recipes that normally use it were changed:
+
+- **Slow Falling potions**: brew an Awkward Potion with a **Feather** instead of a Phantom Membrane.
+  Works exactly like any other potion ingredient - same brewing stand, same fuel, same upgrade path
+  to splash and lingering afterward.
+- **Shulker Box** (the Woodcutting-mastery luxury recipe): uses **Purple Dye** in place of Phantom
+  Membrane. See [Skills](skills.md) for the full recipe.
 
 ## The Nether is small, temporary, and unclaimable
 
