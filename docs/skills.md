@@ -139,9 +139,9 @@ obtain a *new* one of its luxury until you swap it back in.
 Shulker boxes are made with this recipe:
 
 ```
-Diamond           Phantom Membrane   Diamond
-Phantom Membrane  Chest              Phantom Membrane
-Emerald           Phantom Membrane   Emerald
+Diamond      Purple Dye   Diamond
+Purple Dye   Chest        Purple Dye
+Emerald      Purple Dye   Emerald
 ```
 
 ### Crafting an Enchanted Golden Apple

@@ -8,6 +8,13 @@ regardless of nation or mode.
 You cannot travel to the End at all - stepping into an End portal simply does nothing. This is a
 deliberate server-wide decision, not a bug.
 
+## Phantoms don't spawn
+
+Phantoms are disabled server-wide - staying up past your bed for however many nights won't summon
+them, and they can't show up any other way either. Phantom Membrane being unobtainable as a result
+means the vanilla Slow Falling potion recipe no longer works; the Shulker Box luxury recipe (see
+[Skills](skills.md)) was also updated to use Purple Dye in place of it.
+
 ## The Nether is small, temporary, and unclaimable
 
 The Nether has a **worldborder 5,000 blocks wide** (2,500 blocks from spawn in any direction), and it
