@@ -182,6 +182,7 @@ below is a no-op while a skill is inactive.
 - Pumpkin, Melon: **4 XP**
 - Sugar Cane: **4 XP** (cane you planted yourself gives nothing - no wait time otherwise, unlike
   other crops)
+- Breeding a **cow, pig, or sheep**: **3 XP** per successful breed
 
 Cocoa is harvested the same way as wheat/carrots - break the pod, then replant beans on the log -
 not by right-clicking it.
