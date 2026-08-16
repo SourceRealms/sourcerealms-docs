@@ -55,6 +55,10 @@ someone standing inside a claim that isn't yours; a bounty is an explicit except
 active war is. If your target holes up inside their own nation's territory, you can still get the
 kill there.
 
+That part of the contract only kicks in **1 hour after you accept** - before that, normal PvP rules
+still apply. It's a manhunt, not an instant pass: the wait stops a contract from being used to just
+walk up and drop someone's claim protection the moment it's signed.
+
 ## Who knows what
 
 Bounties are quiet by design:
