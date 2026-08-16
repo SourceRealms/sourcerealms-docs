@@ -105,11 +105,12 @@ Inside your claims, outsiders can't:
 
 **PvP in your claim is one-directional**: an intruder can't damage anyone standing in your
 territory, but a member of your nation can freely fight back against them - a deliberate anti-troll
-rule, not a loophole for the intruder. This flips two ways: during an active war battle, both sides
-may fight anywhere including inside claims (see [Declaring War](../war/overview.md)); and if a
-fight was already underway before either player crossed the border, it keeps going - retreating
-into a claim mid-fight doesn't grant safety. Separately, **nation members can never PvP each
-other**, in claims or the wilderness alike - friendly fire is always off.
+rule, not a loophole for the intruder. This is overridden three ways: during an active war battle,
+both sides may fight anywhere including inside claims (see [Declaring War](../war/overview.md)); if
+a fight was already underway before either player crossed the border, it keeps going - retreating
+into a claim mid-fight doesn't grant safety; and an accepted [bounty](../bounties.md) contract lets
+the killer get the kill anywhere their target is hiding, claims included. Separately, **nation
+members can never PvP each other**, in claims or the wilderness alike - friendly fire is always off.
 
 You also can't `/sethome` inside a claim that isn't your own nation's, or within 4 chunks of one.
 

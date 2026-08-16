@@ -50,6 +50,11 @@ Land the kill (PvP - melee or a projectile both count) within your 48-hour windo
 happens automatically. It's then announced to the whole server. If the window runs out first, the
 contract fails and the requester's gold is refunded.
 
+**An accepted contract works anywhere - claim protection doesn't apply.** Normally you can't damage
+someone standing inside a claim that isn't yours; a bounty is an explicit exception, the same way an
+active war is. If your target holes up inside their own nation's territory, you can still get the
+kill there.
+
 ## Who knows what
 
 Bounties are quiet by design:
@@ -80,4 +85,7 @@ A couple of things worth knowing:
   side already pays reparations to the winning nation instead).
 - You **can't loot your own head**, or a **fellow nation member's** - if you or one of your own pick
   one up, it just can't be redeemed by you.
+- **A head with nothing to claim can't be redeemed** - if the victim's balance is sitting at 0, the
+  head isn't consumed on a failed attempt, so you can hang onto it and try again once they've got
+  something worth taking.
 - Heads can't be placed as decorative skull blocks - right-click redeems them, that's their only use.
