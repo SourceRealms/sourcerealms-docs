@@ -15,6 +15,14 @@ resolved one way or another, so you're never on the hook for more than you agree
 You have to be **within 10 blocks of the killer** (and they have to be online) to place the offer
 - it's a face-to-face handoff, not something you can arrange remotely.
 
+A few rules on who can place a bounty on whom:
+
+- **You must be in a nation.** Nationless (wilderness) players can't place bounties.
+- **You can't target a member of your own nation.** This closes off using bounties to just shuffle
+  gold between two people in the same nation.
+- **A player can only have one active bounty on them at a time.** You can't stack a second contract
+  on someone who's already got one pending or running.
+
 ## Accepting or declining
 
 The player you named as killer gets a private heads-up and has to respond:
@@ -27,10 +35,23 @@ The player you named as killer gets a private heads-up and has to respond:
 If more than one offer is waiting for you, add the target's name to say which one you mean -
 e.g. `/bounty accept Steve`.
 
-- **Accept** and the clock starts: you have **48 hours** to land the kill.
+- **Accept** and the clock starts: you have **24 hours** to land the kill.
 - **Decline**, and the requester gets their gold back immediately.
 - **Don't respond** within a few days and the offer quietly expires - the requester is refunded
   either way.
+
+## Cancelling a bounty
+
+Placed a bounty and changed your mind? As the requester, you can call it off yourself at any point
+- whether it's still an unanswered offer or already accepted and running:
+
+```
+/bounty cancel
+```
+
+Add the target's name (`/bounty cancel Steve`) if you've got more than one active. Cancelling
+refunds your gold in full. If the killer had already accepted, their contract - and their locator
+compass - is pulled immediately and they're notified it was called off.
 
 ## The locator compass
 
@@ -46,7 +67,7 @@ automatically the moment the contract resolves - killed, or the window running o
 
 ## Getting paid
 
-Land the kill (PvP - melee or a projectile both count) within your 48-hour window and the payout
+Land the kill (PvP - melee or a projectile both count) within your 24-hour window and the payout
 happens automatically. It's then announced to the whole server. If the window runs out first, the
 contract fails and the requester's gold is refunded.
 
