@@ -17,9 +17,11 @@ You have to be **within 10 blocks of the killer** (and they have to be online) t
 
 A few rules on who can place a bounty on whom:
 
-- **You must be in a nation.** Nationless (wilderness) players can't place bounties.
-- **You can't target a member of your own nation.** This closes off using bounties to just shuffle
-  gold between two people in the same nation.
+- **You must be in a nation**, and so must the killer you're offering it to. Nationless (wilderness)
+  players can neither place a bounty nor be hired as one.
+- **You can't target a member of your own nation**, and **you can't hire a member of your own
+  nation as the killer either.** Both close off using bounties to just shuffle gold between two
+  people in the same nation.
 - **A player can only have one active bounty on them at a time.** You can't stack a second contract
   on someone who's already got one pending or running.
 
