@@ -107,7 +107,7 @@ apply to **everyone**, everywhere on the server.
 - **Ender pearls** - there's a **5-second cooldown** between throws.
 - **Trident Riptide** - there's a **5-second cooldown** between dashes.
 
-**Carry limits** *(you can't hold more than this; any excess is dropped at your feet)*:
+**Carry limits** *(you can't hold more than this - even stashed inside a shulker box or bundle. Picking one up, or taking it out of a chest, that would put you over the limit just doesn't work; it stays where it was)*:
 
 | Item | Max you can carry |
 |---|---|
