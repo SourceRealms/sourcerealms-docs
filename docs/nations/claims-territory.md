@@ -112,6 +112,11 @@ into a claim mid-fight doesn't grant safety; and an accepted [bounty](../bountie
 the killer get the kill anywhere their target is hiding, claims included. Separately, **nation
 members can never PvP each other**, in claims or the wilderness alike - friendly fire is always off.
 
+One more carve-out: while you're actively **in combat** (tagged in a fight), a **water bucket**
+(placing or scooping back up) and a **cobweb** (placing or breaking your own) both work inside a
+claim that isn't yours - basic self-defense/escape tools that have to actually function wherever
+the fight has taken you, rather than being blocked the moment you cross a border mid-chase.
+
 You also can't `/sethome` inside a claim that isn't your own nation's, or within 4 chunks of one.
 
 When you cross a border you'll see the nation's name (in its colour) and its leader as a title

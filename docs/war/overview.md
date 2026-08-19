@@ -127,11 +127,14 @@ The battlefield has two zones, and they play differently:
   whatever you like - it's open ground. This is where you'd set up siege positions.
 - **Inside the contested territory:** it's the defenders' land, so the two sides play by different
   rules. **Defenders can build and break their own base freely** - dig in, reroute, wall off, do
-  whatever it takes to hold. **Attackers can't break the base by hand:** blocks that were already
-  there when the battle started - walls, floors, the ground itself - are locked to them, so there's no
-  tunnelling under a castle to pop up in the throne room. Both sides can freely **place** blocks
-  (bridge a wall, pillar up, box up for cover), and **any block placed after the battle began can be
-  broken again** by either side.
+  whatever it takes to hold. **Attackers can only break the pre-existing base by hand while they're
+  actively in combat** - tagged in a fight, not just standing on the land. Outside of combat, blocks
+  that were already there when the battle started - walls, floors, the ground itself - are locked to
+  them, so there's no quietly tunnelling under a castle to pop up in the throne room while nobody's
+  looking; the moment a fight actually breaks out at the wall, though, it can be fought through by
+  hand, not just from range. Both sides can freely **place** blocks (bridge a wall, pillar up, box up
+  for cover), and **any block placed after the battle began can be broken again** by either side,
+  combat or not.
 
 So how does an attacker actually get in? You go **through the wall, not under it**: **explosions still
 tear through everything inside the battlefield**, so TNT (and siege equipment) will blast open

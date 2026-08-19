@@ -54,10 +54,12 @@ stripped out, so raiding a monument won't hand you a stack of free currency.
 
 ## Gold can't be stored outside your own territory - or in an ender chest
 
-Gold ingots, blocks, nuggets, and raw gold/raw gold blocks can't be put into a chest, barrel, shulker box, furnace, hopper,
-dropper, or dispenser sitting on **unclaimed land**. Trying to place gold into one there fails -
-the container has to be inside a claim. This also catches a shulker box (or bundle) that already
-has gold inside it - you can't launder gold past the rule by hiding it a container deep.
+Gold ingots, blocks, nuggets, raw gold/raw gold blocks, and gold ore (regular or deepslate, if you
+Silk Touch it) can't be put into a chest, barrel, shulker box, furnace, hopper, dropper, or
+dispenser sitting on **unclaimed land**. Trying to place gold into one there fails - the container
+has to be inside a claim. This also catches a shulker box (or bundle) that already has gold inside
+it - you can't launder gold past the rule by hiding it a container deep, and mining it as ore
+instead of letting it smelt first doesn't get around the rule either.
 
 **Ender chests are off-limits for gold entirely, everywhere** - claimed or not. Ender chest contents
 follow you no matter where you are and can never be raided, so allowing gold in there would make
@@ -107,7 +109,10 @@ apply to **everyone**, everywhere on the server.
 - **Ender pearls** - there's a **5-second cooldown** between throws.
 - **Trident Riptide** - there's a **5-second cooldown** between dashes.
 
-**Carry limits** *(you can't hold more than this - even stashed inside a shulker box or bundle. Picking one up, or taking it out of a chest, that would put you over the limit just doesn't work; it stays where it was)*:
+**Carry limits** *(you can't hold more than this - even stashed inside a shulker box or bundle.
+Picking something up off the ground that would put you over the limit just doesn't work - it stays
+where it was. Taking something out of a chest/ender chest/etc. isn't blocked the same way - if it
+does push you over, the excess gets dropped at your feet shortly after instead)*:
 
 | Item | Max you can carry |
 |---|---|
