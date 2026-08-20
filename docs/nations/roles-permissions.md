@@ -32,7 +32,8 @@ permission to manage members or roles yourself, the Members panel becomes a **re
 | **Manage Roles** | Create, edit, and delete roles, and assign them to members |
 | **Manage Diplomacy** | Treaties, enemies, nation mode toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
 | **Bank Deposit** | Deposit to the nation bank |
-| **Bank Withdraw** | Withdraw from the bank, send foreign aid, and collect received aid |
+| **Bank Withdraw** | Withdraw from the nation bank |
+| **Foreign Aid** | Send foreign aid and collect received aid - a separate permission from *Bank Withdraw*, so a role can have one without the other |
 | **Manage Taxes** | Set the daily member tax rate and manage exemptions - see [Tax & Upkeep](../economy/tax-upkeep.md) |
 | **Edit Labels** | Colour, description, government, ideology, capital location, and banner |
 | **Edit Banner** | Edit the nation banner |

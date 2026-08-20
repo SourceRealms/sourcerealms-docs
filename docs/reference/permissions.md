@@ -15,7 +15,8 @@ Permissions live on **roles**, not individual members - see
 | **Manage Roles** | Create, edit, and delete roles and assign them |
 | **Manage Diplomacy** | Treaties, enemies, nation mode toggle, declaring/cancelling/surrendering wars, reinforcing allies, and letters |
 | **Bank Deposit** | Deposit to the nation bank |
-| **Bank Withdraw** | Withdraw from the bank, send aid, and collect received aid |
+| **Bank Withdraw** | Withdraw from the nation bank |
+| **Foreign Aid** | Send foreign aid and collect received aid - separate from *Bank Withdraw* |
 | **Manage Taxes** | Set the daily member tax rate and manage exemptions |
 | **Edit Labels** | Colour, description, government, ideology, capital location, and banner |
 | **Edit Banner** | Edit the nation banner |

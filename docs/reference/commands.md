@@ -86,6 +86,7 @@
 | `/nation bank deposit <amount>` | Your balance → nation bank |
 | `/nation bank withdraw <amount>` | Nation bank → your balance |
 | `/nation bank send <amount> <nation>` | Send money to another nation (aid) |
+| `/nation bank history` | Your nation's most recent bank transactions |
 | `/nation tax` | Show your nation's tax rate and exemptions |
 | `/nation tax set <percent>` | Set the daily member tax (*Manage Taxes*) |
 | `/nation tax exempt <player>` | Exempt a member from tax (*Manage Taxes*) |
