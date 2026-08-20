@@ -193,4 +193,25 @@ No claims change hands either way when the defender wins - only value.
 - **Server restart mid-battle** - the battle is cancelled; battle state isn't saved across restarts.
 
 Check your current war any time with `/nation war list`, or details with
-`/nation war info <nation>`.
+`/nation war info <nation>` - both show the war's **ID number**, which you'll need for the command
+below.
+
+## Adjusting the battle time
+
+Session slot doesn't actually work for you? Either side can nudge a still-pending or scheduled
+war's time with:
+
+```
+/nation war adjust <id> <hours>
+```
+
+Positive hours push the battle later, negative pulls it earlier - e.g. `/nation war adjust 42 -2`
+moves war #42 two hours earlier. A couple of limits:
+
+- You can't pull it more than **3 hours** earlier than its original scheduled time, total - not 3
+  hours per use, 3 hours ever, no matter how many times you adjust it.
+- You can't push it later than the **end of the coming Thursday**.
+
+Both nations get notified in-game, and the change is announced in `#nations-news` right away, same
+as the original declaration. Works exactly the same whether you're on Java or Bedrock - it's a
+plain command, not a menu.

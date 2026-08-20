@@ -63,7 +63,8 @@
 | `/nation war declare <nation>` | Declare war (contest a territory) |
 | `/nation war cancel <nation>` | Call off a war before the battle starts (attacker only) |
 | `/nation war reinforce <ally>` | Answer an ally's call to arms |
-| `/nation war list` / `/nation war info <nation>` | Your war / war details |
+| `/nation war list` / `/nation war info <nation>` | Your war / war details (shows the war ID) |
+| `/nation war adjust <id> <hours>` | Shift a pending/scheduled war's battle time (see [War](../war/overview.md#adjusting-the-battle-time)) |
 | `/nation war surrender <nation>` · `/nation surrender <nation>` | Surrender a battle |
 
 ## Diplomacy
