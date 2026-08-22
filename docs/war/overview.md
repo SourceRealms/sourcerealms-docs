@@ -1,12 +1,22 @@
 # Declaring War
 
-!!! warning "Wars need a real reason"
-    Wars aren't meant to be declared for no reason - "I just want to PvP" isn't good enough on its
-    own. Every war is **admin-gated**: when you declare, you'll be asked for your reasoning, and an
-    admin has final say on whether it's allowed to go ahead. See [step 3 below](#3-admin-review).
-
 War is how territory changes hands. It's a deliberate, scheduled event tied to a fixed weekly
-session - not an instant free-for-all.
+session - not an instant free-for-all, and every war is **admin-gated**. Follow these five steps,
+in order, and you'll have the smoothest time getting a war approved:
+
+1. Run `/nation war declare <nation>`.
+2. Post your reason for the war in **#nations-leaders** - make it entertaining, put some actual
+   effort in. "I just want to PvP" isn't good enough on its own.
+3. Once approved, you'll be notified in-game. If you're offline at that moment, you'll see it the
+   next time you log in.
+4. At any given time, only **two wars can be scheduled** (two weeks' worth). If both slots are
+   already booked, your declaration won't go through until one frees up.
+5. Admins hold final say on which wars actually go ahead - the decision comes down to what you
+   post in #nations-leaders, the validity of your reason, and judgment call. **Don't argue or push
+   back if your war is denied** - it won't change the outcome, and it's the kind of thing that gets
+   a timeout or a temp ban.
+
+The sections below cover each of these in more detail.
 
 ## 1. Declare - any time
 
@@ -48,9 +58,11 @@ A declared war doesn't go live immediately - it's marked **pending** until an ad
 an in-game command or a Discord button). This is announced in the server's `#nations-admin` Discord
 channel. You'll see your war listed as *pending admin approval* until then.
 
-As part of that review, an admin will ask you for your **reasoning** for the war - "I want to PvP"
-isn't a valid reason on its own. Come with a real motive (a border dispute, retaliation, a political
-grievance, etc.) - the admin has final say on whether the war is allowed to proceed.
+Your job during this step: post your reasoning for the war in **#nations-leaders** - a border
+dispute, retaliation, a political grievance, whatever it is. Make it entertaining and put some real
+effort in, since that's the main thing your war gets judged on. Admins hold final say on whether it
+goes ahead, based on what you post, the validity of the reason, and their own judgment - arguing
+with a denial won't change the outcome and can get you timed out or temp-banned.
 
 - **If approved**, your war is confirmed for its session slot, and it's publicly announced in the
   `#nations-news` Discord channel with a countdown timestamp. That post is kept **up to date through
