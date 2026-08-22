@@ -5,11 +5,13 @@ Pay someone to kill someone else. It's exactly what it sounds like.
 ## Placing a bounty
 
 ```
-/bounty <target> <killer> <amount>
+/bounty <target> <killer> <amount> <reason>
 ```
 
-This offers **`<killer>`** a contract: kill **`<target>`** and get paid **`<amount>`** gold. The
-gold is taken from you the moment you place the offer - it's held safely until the contract is
+This offers **`<killer>`** a contract: kill **`<target>`** and get paid **`<amount>`** gold. You
+must give a **reason** - it's shown to the killer along with the offer, so make it a real one.
+
+The gold is taken from you the moment you place the offer - it's held safely until the contract is
 resolved one way or another, so you're never on the hook for more than you agreed to pay.
 
 You have to be **within 10 blocks of the killer** (and they have to be online) to place the offer

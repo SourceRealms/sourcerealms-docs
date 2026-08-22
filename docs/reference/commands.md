@@ -92,7 +92,7 @@
 | `/nation tax exempt <player>` | Exempt a member from tax (*Manage Taxes*) |
 | `/nation tax unexempt <player>` | Remove a member's exemption (*Manage Taxes*) |
 | `/nation chest` | Open your nation's shared community chest (any member, no permission needed) |
-| `/bounty <target> <killer> <amount>` | Offer a paid contract on someone's life (see [Bounties](../bounties.md)) |
+| `/bounty <target> <killer> <amount> <reason>` | Offer a paid contract on someone's life - a reason is required (see [Bounties](../bounties.md)) |
 | `/bounty accept [target]` | Accept a bounty offered to you |
 | `/bounty deny [target]` | Decline a bounty offered to you |
 | `/bounty cancel [target]` | Call off your own bounty and get refunded |
