@@ -87,6 +87,21 @@ Leave a damaged block alone for **5 minutes** and it starts **healing 1 hit ever
 back to full health - so a wall that survives an initial assault will recover if the attackers don't
 keep the pressure up.
 
+## Maces are strictly limited
+
+Following a community vote, maces are capped at **5 in existence on the server at once**, and normal
+crafting (Breeze Rod + Heavy Core at a smithing table) has been disabled outright — it's no longer
+possible to make your own.
+
+The only way to get one is a random **supply drop**: every so often, a chest containing exactly one
+mace lands somewhere in the wild — never inside a nation's claim. It's announced in chat with its
+coordinates the moment it lands, but stays **locked for 5 minutes** before anyone can open it - after
+that, it's first come, first served. If a mace is ever permanently lost (destroyed by lava, falls
+into the void, or despawns on the ground unclaimed), that frees up a slot for a future drop.
+
+The existing mace cooldown (10 seconds between hits, see [Combat item rules](#combat-item-rules)
+below) still applies to any mace you get this way.
+
 ## Combat item rules
 
 To keep PvP fair and skill-based, a handful of items are banned, cooldown-gated, or capped. These
