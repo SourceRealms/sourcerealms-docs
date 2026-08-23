@@ -107,7 +107,7 @@ apply to **everyone**, everywhere on the server.
 - **Spears** - each **lunge** costs **4 hunger bars**, so you can't spam it - a couple of lunges in a
   row will run your hunger out. Normal melee swings are unaffected.
 - **Ender pearls** - there's a **5-second cooldown** between throws.
-- **Trident Riptide** - there's a **5-second cooldown** between dashes.
+- **Trident Riptide** - there's a **10-second cooldown** between dashes.
 
 **Carry limits** *(you can't hold more than this - even stashed inside a shulker box or bundle.
 Picking something up off the ground that would put you over the limit just doesn't work - it stays
