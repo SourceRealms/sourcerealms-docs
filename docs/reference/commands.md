@@ -15,6 +15,8 @@
 | `/nation disband` → `confirm` | Delete your nation |
 | `/nation info [name]` | Nation details |
 | `/nation list [page]` | All nations |
+| `/nation log [page]` | Join/leave/kick history for your nation |
+| `/nation overthrow` | Start or join a vote to remove your leader - see [Overthrow](../overthrow.md) |
 
 ## Land & capital
 

@@ -15,7 +15,8 @@ Open **Nation Menu → Nation Management → Members & Permissions** (Java), or 
 | `/nation role title <role> <new title>` | Rename a role's display title (shown on nameplates). |
 | `/nation perms ...` | Inspect and toggle a role's permissions (or use the GUI's green/red toggles). |
 
-The **leader** always holds every permission and can't be reassigned or kicked. If you don't have
+The **leader** always holds every permission and can't be reassigned or kicked - the one exception
+being a successful [overthrow vote](../overthrow.md), which any member can start. If you don't have
 permission to manage members or roles yourself, the Members panel becomes a **read-only roster**.
 
 ## The permission list
@@ -53,7 +54,7 @@ points, not fixed tiers.
 - **Trusted** adds **Claim/Unclaim Land**, **Invite/Kick Players**, **Manage Roles**, and **Send
   Announcements** on top of everything Member has.
 - The **Leader** always has every permission, regardless of role edits, and can't be reassigned or
-  kicked.
+  kicked - except through a successful [overthrow vote](../overthrow.md).
 
 **Manage Plots** isn't included in Member or Trusted's starting permissions - only the Leader has it
 by default. Grant it to Trusted (or a custom role) if you want to delegate assigning personal plots.

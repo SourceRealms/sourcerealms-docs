@@ -97,6 +97,10 @@ Inside your claims, outsiders can't:
 - **Build in the unclaimed wilderness right next to your wall** - placing blocks is blocked within
   1 chunk of any claim that isn't the placer's own, so a trespasser can't just tower or bridge over
   from just outside it.
+
+Normal, non-griefing mob behaviour is never affected by this: a sheep regrowing wool by eating grass,
+a bee filling its hive, a turtle laying an egg on its own beach, and a villager farming (harvesting
+and replanting) crops all still work exactly as vanilla intends, even inside a claim you don't own.
 - **Splash a harmful potion** (poison, wither, weakness, instant damage, etc.) at your animals or
   your members from outside - it just has no effect. Beneficial potions (healing, strength, and so
   on) aren't affected, so sharing a buff with a visiting ally still works fine.

@@ -70,6 +70,7 @@ nav:
       - Random Teleport: rtp.md
       - Skills & Progression: skills.md
       - Bounties: bounties.md
+      - Overthrow: overthrow.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md

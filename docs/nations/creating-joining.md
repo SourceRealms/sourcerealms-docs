@@ -38,6 +38,8 @@ tag later with `/nation tag <tag>` (2–5 characters).
 - **`/nation info [name]`** - details of your nation (or another's): description, government,
   ideology, capital, bank balance, claims, and members.
 - **`/nation list [page]`** - every nation on the server.
+- **`/nation log [page]`** - a paginated history of who joined, left, or was kicked from your
+  nation, and when.
 
 ## Nation & ally chat
 
