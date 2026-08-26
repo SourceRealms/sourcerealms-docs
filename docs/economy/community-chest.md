@@ -9,6 +9,15 @@ It's also the easiest way to hand off a **[mastery-gated luxury item](../skills.
 Strength II Potion) to a nation-mate who hasn't mastered that skill themselves - drop it in the
 chest instead of arranging a meetup.
 
+## History
+
+```
+/nation chest history [page]
+```
+
+A paginated log of every item added to or taken from the chest, with who did it and when. Useful
+for keeping track of a busy shared chest, or sorting out a dispute over who took what.
+
 ## Restrictions
 
 - **Locked during an active battle.** You can still use it any other time your nation is at war
