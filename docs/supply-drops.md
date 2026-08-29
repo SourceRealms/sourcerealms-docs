@@ -20,5 +20,6 @@ that item's normal luxury gate yet.
 
 ## Getting there first
 
-Once a drop is announced, it's a race. Whoever opens the chest and takes the loot keeps it, no
-protection or claim involved. Up to 5 drops can exist in the world unclaimed at once.
+Once a drop is announced, it's a race - whoever opens the chest and takes the loot keeps it. The
+chest itself can't be broken, blown up, or claimed by a nation until it's actually emptied out. Up
+to 5 drops can exist in the world unclaimed at once.

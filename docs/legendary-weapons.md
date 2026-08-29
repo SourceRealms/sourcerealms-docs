@@ -24,3 +24,10 @@ like any other gear.
 Only 5 of each type can exist in the world (or in players' hands) at once. Losing one, whether it
 despawns, burns in lava, or falls into the void, frees up a slot for a new one to eventually spawn
 in a shrine somewhere else.
+
+## Finding a shrine
+
+A shrine can't be broken, blown up, or claimed by a nation while its weapon is still sitting there.
+The chest also locks for **10 minutes** starting from the moment someone first tries to open it, not
+from when the shrine actually spawned - so don't worry if you find one and it won't open right away.
+
