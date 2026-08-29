@@ -71,6 +71,8 @@ nav:
       - Skills & Progression: skills.md
       - Bounties: bounties.md
       - Overthrow: overthrow.md
+      - Supply Drops: supply-drops.md
+      - Legendary Weapons: legendary-weapons.md
   - Reference:
       - Command Reference: reference/commands.md
       - Permissions Reference: reference/permissions.md

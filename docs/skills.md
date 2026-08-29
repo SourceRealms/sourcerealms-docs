@@ -183,6 +183,9 @@ below is a no-op while a skill is inactive.
 - Sugar Cane: **4 XP** (cane you planted yourself gives nothing - no wait time otherwise, unlike
   other crops)
 - Breeding a **cow, pig, or sheep**: **3 XP** per successful breed
+- Composting an item that raises the composter's level: **1 XP**
+- Shearing a sheep: **1.5 XP**
+- Milking a cow: **1.5 XP**
 
 Cocoa is harvested the same way as wheat/carrots - break the pod, then replant beans on the log -
 not by right-clicking it.

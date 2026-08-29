@@ -99,6 +99,8 @@
 | `/bounty accept [target]` | Accept a bounty offered to you |
 | `/bounty deny [target]` | Decline a bounty offered to you |
 | `/bounty cancel [target]` | Call off your own bounty and get refunded |
+| `/drop check` | Where the current gold supply drops are (see [Supply Drops](../supply-drops.md)) |
+| `/legendary check` | Where the current legendary weapon shrines are (see [Legendary Weapons](../legendary-weapons.md)) |
 
 ## Personal & world
 
