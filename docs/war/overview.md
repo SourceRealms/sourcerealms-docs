@@ -90,6 +90,11 @@ before it starts** *(configurable)*, and a final **"battle begun" announcement**
 kicks off. Anyone offline when a reminder fires is caught up the next time they log in. The first
 reminder is also when [allies can answer the call to arms](allies.md).
 
+These reminders (and the battle-begun announcement) are also posted **publicly in server chat**, not
+just to the two nations involved - anyone can see a war is coming, watch it start with
+`/nation spectate`, or answer the call to arms with `/nation war reinforce <nation>` before it's too
+late.
+
 ## 6. Ready up
 
 The battle doesn't start the instant the session slot arrives. Once it does, each nation's **leader**
@@ -104,8 +109,9 @@ window runs out first, the battle starts automatically regardless of who's readi
 
 ## 7. The battle
 
-Once the battle actually starts (either because both sides readied up, or the window ran out),
-everyone online on both sides is teleported to a **battlefield** around the contested territory:
+Once the battle actually starts (either because both sides readied up, or the window ran out), it's
+announced **publicly in server chat** (with a pointer to `/nation spectate`), and everyone online on
+both sides is teleported to a **battlefield** around the contested territory:
 
 - Attackers spawn just outside the territory; defenders spawn at its centre.
 - You **can't leave the battlefield** - reaching the edge bounces you back rather than teleporting
@@ -116,6 +122,11 @@ everyone online on both sides is teleported to a **battlefield** around the cont
   eliminated**.
 - A nation whose land is at stake can concede with `/nation war surrender <nation>` (or
   `/nation surrender <nation>`).
+
+Once the outcome is decided (surrender or full elimination), the battle doesn't end instantly - a
+public announcement fires naming what happened, then there's a **30-second window** before land and
+reparations actually change hands and everyone gets teleported home. Use it to grab anything you
+placed mid-battle (shulkers, ender chests) before the land isn't yours to stand on anymore.
 
 ### Watching a battle you're not fighting in
 
@@ -195,7 +206,8 @@ If the **attacker wins**, they:
 If the **defender wins**, they keep their land, and **also** seize reparations from the attacker
 *(default 25%)* - that percentage of the attacker's **nation bank**, plus the same percentage of
 every losing member's personal balance (**online or offline**), transfers to the defender's bank.
-No claims change hands either way when the defender wins - only value.
+No claims change hands either way when the defender wins - only value. The final result (who won,
+and the spoils) is also announced publicly in server chat once the 30-second conclusion window ends.
 
 ## Things that end a war early
 

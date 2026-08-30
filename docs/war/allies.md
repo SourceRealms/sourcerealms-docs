@@ -1,7 +1,7 @@
 # Allies & Call to Arms
 
-**Mutual Defense** and **Mutual Aggression** pacts have real teeth: your allies can fight beside
-you in an approved war.
+**Alliances**, **Mutual Defense**, and **Mutual Aggression** pacts have real teeth: your allies can
+fight beside you in an approved war.
 
 ## How it works
 
@@ -15,6 +15,8 @@ you in an approved war.
 
 - A **Mutual Defense Pact** ally can join **only when their friend is defending**.
 - A **Mutual Aggression Pact** ally can join **either an attack or a defense**.
+- An **Alliance** ally can also join **either an attack or a defense**, the same as a Mutual
+  Aggression Pact.
 
 !!! info "Glory only - no land or money changes hands for allies"
     Reinforcing allies fight **for glory only**. Captured land and reparations stay strictly

@@ -11,15 +11,20 @@ Shows every shrine currently uncollected, with coordinates and which weapon type
 
 ## The four weapons
 
-- **Longsword** - higher base damage than a normal sword, with a slightly slower swing.
-- **Greatsword** - even higher base damage, slower again.
-- **Battle Axe** - the hardest-hitting of the four, carrying "Armor Shred" - extra flat damage on
-  every hit. Slowest swing speed.
-- **Compact Bow** - fires arrows faster and harder than a normal bow.
+All four are netherite (or the bow, which has no netherite variant in vanilla) - not diamond.
+
+- **Duskbringer** (Longsword) - higher base damage than a normal netherite sword, with a slightly
+  slower swing.
+- **Doomcleaver** (Greatsword) - even higher base damage, slower again.
+- **Ravenhew** (Battle Axe) - the hardest-hitting of the four, carrying "Armor Shred" - extra flat
+  damage on every hit. Slowest swing speed.
+- **Windsong** (Compact Bow) - fires arrows faster and harder than a normal bow.
 
 These aren't stacked with unusual enchantments out of the box - they're just genuinely stronger
 versions of their base weapon (Armor Shred included, despite showing in the item's lore like an
-enchant). You can enchant one further at an enchanting table or anvil exactly like any other gear.
+enchant). You can **enchant** and **repair** one exactly like any other gear - at an enchanting
+table, or an anvil with a plain repair material (a Netherite Ingot) or an enchanted book. The one
+thing you can't do is **combine two legendary weapons together** at an anvil or grindstone.
 
 Only 5 of each type can exist in the world (or in players' hands) at once. Losing one, whether it
 despawns, burns in lava, or falls into the void, frees up a slot for a new one to eventually spawn
