@@ -33,6 +33,6 @@ in a shrine somewhere else.
 ## Finding a shrine
 
 A shrine can't be broken, blown up, or claimed by a nation while its weapon is still sitting there.
-The chest also locks for **10 minutes** starting from the moment someone first tries to open it, not
+The chest also locks for **5 minutes** starting from the moment someone first tries to open it, not
 from when the shrine actually spawned - so don't worry if you find one and it won't open right away.
 

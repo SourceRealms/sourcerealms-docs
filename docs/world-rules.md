@@ -134,10 +134,15 @@ does push you over, the excess gets dropped at your feet shortly after instead)*
 | Ender pearls | 32 (2 stacks) |
 | Wind charges | 64 (1 stack) - and they **can't be crafted** |
 | Enchanted golden apples | 5 |
-| Totems of undying | 3 |
+| Totems of undying | 2 |
 | Cobwebs | 64 (1 stack) - counted even if stashed inside a shulker box or bundle |
 | Experience bottles | 64 (1 stack) |
 | Slow Falling potions | 3 (regular, splash, and lingering all count together) |
+
+Ender pearls, wind charges, totems, cobwebs, and experience bottles also can't be **deposited** into
+an ender chest, nation chest, or aid chest - the point of a carry limit is that it actually limits
+you, not just what you're holding at that exact moment. You can still freely take any of these back
+*out* of storage if they're already in there.
 
 ## TPA is limited to your own nation
 

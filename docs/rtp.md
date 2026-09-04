@@ -7,7 +7,7 @@ useful for finding a fresh place to settle, or just exploring somewhere new.
   hazard.
 - Never lands inside a **nation's claim** - you'll always arrive on free land.
 - Stays within the world border.
-- There's a short **cooldown** *(default: 60 seconds)* between uses.
+- There's a **cooldown** *(default: 2 hours)* between uses.
 
 ## First join
 
